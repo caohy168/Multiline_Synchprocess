@@ -1,0 +1,12 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/caohy168/Work/Multiline_Synchprocess/xdma_bpu_rx/xdma_bpu_ex.gen/sources_1/ip/rs_decoder/sim/rs_decoder.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'rs_decoder'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/caohy168/Work/Multiline_Synchprocess/xdma_bpu_rx/xdma_bpu_ex.gen/sources_1/ip/sub_ddc/sim/sub_ddc.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'sub_ddc'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/caohy168/Work/Multiline_Synchprocess/xdma_bpu_rx/xdma_bpu_ex.gen/sources_1/ip/mult_ddc/sim/mult_ddc.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'mult_ddc'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/caohy168/Work/Multiline_Synchprocess/xdma_bpu_rx/xdma_bpu_ex.gen/sources_1/ip/add_ddc/sim/add_ddc.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'add_ddc'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/caohy168/Work/Multiline_Synchprocess/xdma_bpu_rx/xdma_bpu_ex.gen/sources_1/ip/dds_rq/sim/dds_rq.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'dds_rq'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/caohy168/Work/Multiline_Synchprocess/xdma_bpu_rx/xdma_bpu_ex.gen/sources_1/ip/dds_ri/sim/dds_ri.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'dds_ri'

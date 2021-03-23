@@ -1,0 +1,205 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/caohy168/Work/Multiline_Synchprocess/xdma_bpu_rx/xdma_bpu_ex.gen/sources_1/ip/ddc_out_fifo/sim/ddc_out_fifo.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ddc_out_fifo
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/caohy168/Work/xdma_bpu_ex.gen/sources_1/ip/xdma_bpu/ip_0/ip_0/sim/gtwizard_ultrascale_v1_7_gthe3_channel.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module gtwizard_ultrascale_v1_7_9_gthe3_channel
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/caohy168/Work/xdma_bpu_ex.gen/sources_1/ip/xdma_bpu/ip_0/ip_0/sim/xdma_bpu_pcie3_ip_gt_gthe3_channel_wrapper.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module xdma_bpu_pcie3_ip_gt_gthe3_channel_wrapper
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/caohy168/Work/xdma_bpu_ex.gen/sources_1/ip/xdma_bpu/ip_0/ip_0/sim/xdma_bpu_pcie3_ip_gt_gtwizard_gthe3.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module xdma_bpu_pcie3_ip_gt_gtwizard_gthe3
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/caohy168/Work/xdma_bpu_ex.gen/sources_1/ip/xdma_bpu/ip_0/ip_0/sim/xdma_bpu_pcie3_ip_gt_gtwizard_top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module xdma_bpu_pcie3_ip_gt_gtwizard_top
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/caohy168/Work/xdma_bpu_ex.gen/sources_1/ip/xdma_bpu/ip_0/ip_0/sim/xdma_bpu_pcie3_ip_gt.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module xdma_bpu_pcie3_ip_gt
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/caohy168/Work/xdma_bpu_ex.gen/sources_1/ip/xdma_bpu/ip_0/source/xdma_bpu_pcie3_ip_tph_tbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module xdma_bpu_pcie3_ip_tph_tbl
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/caohy168/Work/xdma_bpu_ex.gen/sources_1/ip/xdma_bpu/ip_0/source/xdma_bpu_pcie3_ip_pipe_lane.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module xdma_bpu_pcie3_ip_pipe_lane
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/caohy168/Work/xdma_bpu_ex.gen/sources_1/ip/xdma_bpu/ip_0/source/xdma_bpu_pcie3_ip_bram_16k.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module xdma_bpu_pcie3_ip_bram_16k
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/caohy168/Work/xdma_bpu_ex.gen/sources_1/ip/xdma_bpu/ip_0/source/xdma_bpu_pcie3_ip_bram_rep_8k.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module xdma_bpu_pcie3_ip_bram_rep_8k
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/caohy168/Work/xdma_bpu_ex.gen/sources_1/ip/xdma_bpu/ip_0/source/xdma_bpu_pcie3_ip_bram_req_8k.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module xdma_bpu_pcie3_ip_bram_req_8k
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/caohy168/Work/xdma_bpu_ex.gen/sources_1/ip/xdma_bpu/ip_0/source/xdma_bpu_pcie3_ip_gt_channel.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module xdma_bpu_pcie3_ip_gt_channel
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/caohy168/Work/xdma_bpu_ex.gen/sources_1/ip/xdma_bpu/ip_0/source/xdma_bpu_pcie3_ip_pipe_pipeline.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module xdma_bpu_pcie3_ip_pipe_pipeline
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/caohy168/Work/xdma_bpu_ex.gen/sources_1/ip/xdma_bpu/ip_0/source/xdma_bpu_pcie3_ip_pipe_misc.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module xdma_bpu_pcie3_ip_pipe_misc
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/caohy168/Work/xdma_bpu_ex.gen/sources_1/ip/xdma_bpu/ip_0/source/xdma_bpu_pcie3_ip_init_ctrl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module xdma_bpu_pcie3_ip_init_ctrl
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/caohy168/Work/xdma_bpu_ex.gen/sources_1/ip/xdma_bpu/ip_0/source/xdma_bpu_pcie3_ip_gt_common.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module xdma_bpu_pcie3_ip_gt_common
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/caohy168/Work/xdma_bpu_ex.gen/sources_1/ip/xdma_bpu/ip_0/source/xdma_bpu_pcie3_ip_bram_8k.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module xdma_bpu_pcie3_ip_bram_8k
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/caohy168/Work/xdma_bpu_ex.gen/sources_1/ip/xdma_bpu/ip_0/source/xdma_bpu_pcie3_ip_bram_rep.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module xdma_bpu_pcie3_ip_bram_rep
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/caohy168/Work/xdma_bpu_ex.gen/sources_1/ip/xdma_bpu/ip_0/source/xdma_bpu_pcie3_ip_bram_req.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module xdma_bpu_pcie3_ip_bram_req
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/caohy168/Work/xdma_bpu_ex.gen/sources_1/ip/xdma_bpu/ip_0/source/xdma_bpu_pcie3_ip_phy_sync.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module xdma_bpu_pcie3_ip_phy_sync
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/caohy168/Work/xdma_bpu_ex.gen/sources_1/ip/xdma_bpu/ip_0/source/xdma_bpu_pcie3_ip_bram_cpl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module xdma_bpu_pcie3_ip_bram_cpl
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/caohy168/Work/xdma_bpu_ex.gen/sources_1/ip/xdma_bpu/ip_0/source/xdma_bpu_pcie3_ip_sys_clk_gen.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module xdma_bpu_pcie3_ip_sys_clk_gen_ps
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/caohy168/Work/xdma_bpu_ex.gen/sources_1/ip/xdma_bpu/ip_0/source/xdma_bpu_pcie3_ip_phy_rst.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module xdma_bpu_pcie3_ip_phy_rst
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/caohy168/Work/xdma_bpu_ex.gen/sources_1/ip/xdma_bpu/ip_0/source/xdma_bpu_pcie3_ip_phy_txeq.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module xdma_bpu_pcie3_ip_phy_txeq
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/caohy168/Work/xdma_bpu_ex.gen/sources_1/ip/xdma_bpu/ip_0/source/xdma_bpu_pcie3_ip_phy_clk.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module xdma_bpu_pcie3_ip_phy_clk
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/caohy168/Work/xdma_bpu_ex.gen/sources_1/ip/xdma_bpu/ip_0/source/xdma_bpu_pcie3_ip_bram.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module xdma_bpu_pcie3_ip_bram
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/caohy168/Work/xdma_bpu_ex.gen/sources_1/ip/xdma_bpu/ip_0/source/xdma_bpu_pcie3_ip_phy_rxeq.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module xdma_bpu_pcie3_ip_phy_rxeq
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/caohy168/Work/xdma_bpu_ex.gen/sources_1/ip/xdma_bpu/ip_0/source/xdma_bpu_pcie3_ip_gtwizard_top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module xdma_bpu_pcie3_ip_gtwizard_top
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/caohy168/Work/xdma_bpu_ex.gen/sources_1/ip/xdma_bpu/ip_0/source/xdma_bpu_pcie3_ip_phy_wrapper.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module xdma_bpu_pcie3_ip_phy_wrapper
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/caohy168/Work/xdma_bpu_ex.gen/sources_1/ip/xdma_bpu/ip_0/source/xdma_bpu_pcie3_ip_pcie3_uscale_wrapper.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module xdma_bpu_pcie3_ip_pcie3_uscale_wrapper
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/caohy168/Work/xdma_bpu_ex.gen/sources_1/ip/xdma_bpu/ip_0/source/xdma_bpu_pcie3_ip_pcie3_uscale_top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module xdma_bpu_pcie3_ip_pcie3_uscale_top
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/caohy168/Work/xdma_bpu_ex.gen/sources_1/ip/xdma_bpu/ip_0/source/xdma_bpu_pcie3_ip_phy_sync_cell.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module xdma_bpu_pcie3_ip_phy_sync_cell
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/caohy168/Work/xdma_bpu_ex.gen/sources_1/ip/xdma_bpu/ip_0/source/xdma_bpu_pcie3_ip_rxcdrhold.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module xdma_bpu_pcie3_ip_rxcdrhold
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/caohy168/Work/xdma_bpu_ex.gen/sources_1/ip/xdma_bpu/ip_0/source/xdma_bpu_pcie3_ip_pcie3_uscale_core_top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module xdma_bpu_pcie3_ip_pcie3_uscale_core_top
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/caohy168/Work/xdma_bpu_ex.gen/sources_1/ip/xdma_bpu/ip_0/sim/xdma_bpu_pcie3_ip.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module xdma_bpu_pcie3_ip
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/caohy168/Work/xdma_bpu_ex.gen/sources_1/ip/xdma_bpu/ip_1/sim/xdma_v4_1_8_blk_mem_64_reg_be.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module xdma_v4_1_8_blk_mem_64_reg_be
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/caohy168/Work/xdma_bpu_ex.gen/sources_1/ip/xdma_bpu/ip_2/sim/xdma_v4_1_8_blk_mem_64_noreg_be.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module xdma_v4_1_8_blk_mem_64_noreg_be
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/caohy168/Work/xdma_bpu_ex.gen/sources_1/ip/xdma_bpu/xdma_v4_1/hdl/verilog/xdma_bpu_dma_bram_wrap.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module xdma_v4_1_8_dma_bram_wrap
+INFO: [VRFC 10-311] analyzing module xdma_v4_1_8_dma_fifo_64x512_wrap
+INFO: [VRFC 10-311] analyzing module xdma_v4_1_8_mem_simple_dport_bram
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/caohy168/Work/xdma_bpu_ex.gen/sources_1/ip/xdma_bpu/xdma_v4_1/hdl/verilog/xdma_bpu_dma_bram_wrap_1024.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module xdma_v4_1_8_dma_bram_wrap_1024
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/caohy168/Work/xdma_bpu_ex.gen/sources_1/ip/xdma_bpu/xdma_v4_1/hdl/verilog/xdma_bpu_dma_bram_wrap_2048.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module xdma_v4_1_8_dma_bram_wrap_2048
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/caohy168/Work/xdma_bpu_ex.gen/sources_1/ip/xdma_bpu/xdma_v4_1/hdl/verilog/xdma_bpu_core_top.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module xdma_bpu_core_top
+INFO: [VRFC 10-2458] undeclared symbol cfg_config_space_enable, assumed default net type wire [/home/caohy168/Work/xdma_bpu_ex.gen/sources_1/ip/xdma_bpu/xdma_v4_1/hdl/verilog/xdma_bpu_core_top.sv:4292]
+INFO: [VRFC 10-2458] undeclared symbol cfg_hot_reset_in, assumed default net type wire [/home/caohy168/Work/xdma_bpu_ex.gen/sources_1/ip/xdma_bpu/xdma_v4_1/hdl/verilog/xdma_bpu_core_top.sv:4293]
+INFO: [VRFC 10-2458] undeclared symbol usr_irq_fail, assumed default net type wire [/home/caohy168/Work/xdma_bpu_ex.gen/sources_1/ip/xdma_bpu/xdma_v4_1/hdl/verilog/xdma_bpu_core_top.sv:4778]
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/caohy168/Work/xdma_bpu_ex.gen/sources_1/ip/xdma_bpu/sim/xdma_bpu.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module xdma_bpu
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/caohy168/Work/Multiline_Synchprocess/xdma_bpu_rx/xdma_bpu_ex.gen/sources_1/ip/bbtoc2h/sim/bbtoc2h.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bbtoc2h
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/caohy168/Work/Multiline_Synchprocess/xdma_bpu_rx/xdma_bpu_ex.gen/sources_1/ip/tpu_receive_clock/tpu_receive_clock_clk_wiz.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tpu_receive_clock_clk_wiz
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/caohy168/Work/Multiline_Synchprocess/xdma_bpu_rx/xdma_bpu_ex.gen/sources_1/ip/tpu_receive_clock/tpu_receive_clock.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tpu_receive_clock
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/caohy168/Work/Multiline_Synchprocess/xdma_bpu_rx/xdma_bpu_ex.srcs/sources_1/imports/imports/crc24_calc_1bit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module crc24_calc_1bit
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/caohy168/Work/Multiline_Synchprocess/xdma_bpu_rx/xdma_bpu_ex.srcs/sources_1/imports/imports/crc24_insert_1bit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module crc24_insert_1bit
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/caohy168/Work/Multiline_Synchprocess/xdma_bpu_rx/imports/pci_exp_usrapp_cfg.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pci_exp_usrapp_cfg
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/caohy168/Work/Multiline_Synchprocess/xdma_bpu_rx/imports/pci_exp_usrapp_com.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pci_exp_usrapp_com
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/caohy168/Work/Multiline_Synchprocess/xdma_bpu_rx/imports/pci_exp_usrapp_rx.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pci_exp_usrapp_rx
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/caohy168/Work/Multiline_Synchprocess/xdma_bpu_rx/imports/pci_exp_usrapp_tx.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pci_exp_usrapp_tx
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/caohy168/Work/Multiline_Synchprocess/xdma_bpu_rx/xdma_bpu_ex.srcs/sources_1/imports/pcie/pcie3_uscale_rp_core_top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module rp_pcie3_uscale_core_top
+INFO: [VRFC 10-2458] undeclared symbol mcap_clk, assumed default net type wire [/home/caohy168/Work/Multiline_Synchprocess/xdma_bpu_rx/xdma_bpu_ex.srcs/sources_1/imports/pcie/pcie3_uscale_rp_core_top.v:1759]
+INFO: [VRFC 10-2458] undeclared symbol mcap_clk, assumed default net type wire [/home/caohy168/Work/Multiline_Synchprocess/xdma_bpu_rx/xdma_bpu_ex.srcs/sources_1/imports/pcie/pcie3_uscale_rp_core_top.v:3162]
+INFO: [VRFC 10-311] analyzing module rp_pcie3_uscale_top
+INFO: [VRFC 10-311] analyzing module rp_init_ctrl
+INFO: [VRFC 10-311] analyzing module rp_tph_tbl
+INFO: [VRFC 10-311] analyzing module rp_pipe_pipeline
+INFO: [VRFC 10-311] analyzing module rp_pipe_misc
+INFO: [VRFC 10-311] analyzing module rp_pipe_lane
+INFO: [VRFC 10-311] analyzing module rp_pcie3_uscale_wrapper
+INFO: [VRFC 10-311] analyzing module rp_bram
+INFO: [VRFC 10-311] analyzing module rp_bram_rep
+INFO: [VRFC 10-311] analyzing module rp_bram_rep_8k
+INFO: [VRFC 10-311] analyzing module rp_bram_req
+INFO: [VRFC 10-311] analyzing module rp_bram_8k
+INFO: [VRFC 10-311] analyzing module rp_bram_cpl
+INFO: [VRFC 10-311] analyzing module rp_bram_16k
+INFO: [VRFC 10-311] analyzing module rp_deemph
+INFO: [VRFC 10-311] analyzing module rp_rxcdrhold
+INFO: [VRFC 10-311] analyzing module rp_phy_sync
+INFO: [VRFC 10-311] analyzing module rp_phy_sync_cell
+INFO: [VRFC 10-311] analyzing module rp_phy_wrapper
+INFO: [VRFC 10-311] analyzing module rp_phy_clk
+INFO: [VRFC 10-311] analyzing module rp_phy_rst
+INFO: [VRFC 10-311] analyzing module rp_phy_txeq
+INFO: [VRFC 10-311] analyzing module rp_phy_rxeq
+INFO: [VRFC 10-311] analyzing module rp_phy_reset_sync
+INFO: [VRFC 10-311] analyzing module rp_phy_multi_pipe_sync
+INFO: [VRFC 10-311] analyzing module rp_phy_freq_cntr
+INFO: [VRFC 10-311] analyzing module rp_gt_channel
+INFO: [VRFC 10-311] analyzing module rp_gt_common
+INFO: [VRFC 10-311] analyzing module rp_gtwizard_top
+INFO: [VRFC 10-311] analyzing module rp_gt
+INFO: [VRFC 10-311] analyzing module rp_gt_gtwizard_top
+INFO: [VRFC 10-311] analyzing module rp_gt_gtwizard_gthe3
+INFO: [VRFC 10-311] analyzing module rp_gt_gthe3_common_wrapper
+INFO: [VRFC 10-311] analyzing module gtwizard_ultrascale_v1_5_4_gthe3_common_rp
+INFO: [VRFC 10-311] analyzing module rp_gt_gthe3_channel_wrapper
+INFO: [VRFC 10-311] analyzing module gtwizard_ultrascale_v1_5_4_gthe3_channel_rp
+INFO: [VRFC 10-311] analyzing module gtwizard_ultrascale_v1_5_4_gthe3_cpll_cal_rp
+INFO: [VRFC 10-311] analyzing module gtwizard_ultrascale_v1_5_4_reset_synchronizer_rp
+INFO: [VRFC 10-311] analyzing module gtwizard_ultrascale_v1_5_4_bit_synchronizer_rp
+INFO: [VRFC 10-311] analyzing module gtwizard_ultrascale_v1_5_4_gthe3_cpll_cal_freq_counter_rp
+INFO: [VRFC 10-311] analyzing module gtwizard_ultrascale_v1_5_4_gtwiz_userclk_tx_rp
+INFO: [VRFC 10-311] analyzing module gtwizard_ultrascale_v1_5_4_gtwiz_userclk_rx_rp
+INFO: [VRFC 10-311] analyzing module gtwizard_ultrascale_v1_5_4_gtwiz_buffbypass_tx_rp
+INFO: [VRFC 10-311] analyzing module gtwizard_ultrascale_v1_5_4_gtwiz_buffbypass_rx_rp
+INFO: [VRFC 10-311] analyzing module gtwizard_ultrascale_v1_5_4_gtwiz_reset_rp
+INFO: [VRFC 10-311] analyzing module gtwizard_ultrascale_v1_5_4_gtwiz_userdata_tx_rp
+INFO: [VRFC 10-311] analyzing module gtwizard_ultrascale_v1_5_4_gtwiz_userdata_rx_rp
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/caohy168/Work/Multiline_Synchprocess/xdma_bpu_rx/imports/pcie3_uscale_rp_top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pcie3_uscale_rp_top
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/caohy168/Work/Multiline_Synchprocess/xdma_bpu_rx/imports/sys_clk_gen.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sys_clk_gen
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/caohy168/Work/Multiline_Synchprocess/xdma_bpu_rx/imports/sys_clk_gen_ds.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sys_clk_gen_ds
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/caohy168/Work/Multiline_Synchprocess/xdma_bpu_rx/imports/xilinx_pcie_uscale_rp.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module xilinx_pcie3_uscale_rp
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/caohy168/Work/Multiline_Synchprocess/xdma_bpu_rx/xdma_bpu_ex.srcs/sources_1/imports/imports/crc_detector.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module crc_detector
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/caohy168/Work/Multiline_Synchprocess/xdma_bpu_rx/xdma_bpu_ex.srcs/sources_1/imports/imports/crc_generator.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module crc_generator
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/caohy168/Work/Multiline_Synchprocess/xdma_bpu_rx/xdma_bpu_ex.srcs/sources_1/imports/imports/data_transfer.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module data_transfer
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/caohy168/Work/Multiline_Synchprocess/xdma_bpu_rx/xdma_bpu_ex.srcs/sources_1/imports/imports/ddc.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ddc
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/caohy168/Work/Multiline_Synchprocess/xdma_bpu_rx/xdma_bpu_ex.srcs/sources_1/imports/imports/deintrlv.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module deintrlv
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/caohy168/Work/Multiline_Synchprocess/xdma_bpu_rx/xdma_bpu_ex.srcs/sources_1/imports/imports/descrambler.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module descrambler
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/caohy168/Work/Multiline_Synchprocess/xdma_bpu_rx/xdma_bpu_ex.srcs/sources_1/imports/imports/eqam.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module eqam
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/caohy168/Work/Multiline_Synchprocess/xdma_bpu_rx/xdma_bpu_ex.srcs/sources_1/imports/imports/layer1.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module layer1
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/caohy168/Work/Multiline_Synchprocess/xdma_bpu_rx/xdma_bpu_ex.srcs/sources_1/imports/imports/layer1_receive.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module layer1_receive
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/caohy168/Work/Multiline_Synchprocess/xdma_bpu_rx/xdma_bpu_ex.srcs/sources_1/imports/imports/mac_deblock.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mac_deblock
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/caohy168/Work/Multiline_Synchprocess/xdma_bpu_rx/xdma_bpu_ex.srcs/sources_1/imports/imports/radio.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module radio
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/caohy168/Work/Multiline_Synchprocess/xdma_bpu_rx/xdma_bpu_ex.srcs/sources_1/imports/imports/radio_receive.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module radio_receive
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/caohy168/Work/Multiline_Synchprocess/xdma_bpu_rx/xdma_bpu_ex.srcs/sources_1/imports/imports/tpu_pullstream.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tpu_pullstream
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/caohy168/Work/Multiline_Synchprocess/xdma_bpu_rx/xdma_bpu_ex.srcs/sources_1/imports/imports/tpu_receive.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tpu_receive
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/caohy168/Work/Multiline_Synchprocess/xdma_bpu_rx/xdma_bpu_ex.srcs/sources_1/new/xdma_app.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module xdma_app
+INFO: [VRFC 10-2458] undeclared symbol sys_resetn, assumed default net type wire [/home/caohy168/Work/Multiline_Synchprocess/xdma_bpu_rx/xdma_bpu_ex.srcs/sources_1/new/xdma_app.sv:69]
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/caohy168/Work/Multiline_Synchprocess/xdma_bpu_rx/xdma_bpu_ex.srcs/sources_1/new/xdma_pcie.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module xdma_pcie
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/caohy168/Work/Multiline_Synchprocess/xdma_bpu_rx/xdma_bpu_ex.srcs/sources_1/new/receive_board.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module board
+WARNING: [VRFC 10-3248] data object 'i' is already declared [/home/caohy168/Work/Multiline_Synchprocess/xdma_bpu_rx/xdma_bpu_ex.srcs/sources_1/new/receive_board.sv:366]
+WARNING: [VRFC 10-3703] second declaration of 'i' ignored [/home/caohy168/Work/Multiline_Synchprocess/xdma_bpu_rx/xdma_bpu_ex.srcs/sources_1/new/receive_board.sv:366]
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/caohy168/Work/Multiline_Synchprocess/xdma_bpu_rx/xdma_bpu_ex.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl

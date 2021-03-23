@@ -1,0 +1,4 @@
+vhdl xil_defaultlib  \
+"../../../../xdma_bpu_ex.gen/sources_1/ip/dds_rq/sim/dds_rq.vhd" \
+
+nosort

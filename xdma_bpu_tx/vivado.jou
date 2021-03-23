@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:47 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Tue Mar 23 03:55:44 2021
+# Process ID: 30458
+# Current directory: /home/caohy168/Work/Multiline_Synchprocess/xdma_bpu_tx
+# Command line: vivado xdma_bpu_ex.xpr
+# Log file: /home/caohy168/Work/Multiline_Synchprocess/xdma_bpu_tx/vivado.log
+# Journal file: /home/caohy168/Work/Multiline_Synchprocess/xdma_bpu_tx/vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project xdma_bpu_ex.xpr
+update_compile_order -fileset sources_1

@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:47 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Thu Dec 24 22:46:53 2020
+# Process ID: 46384
+# Current directory: /home/caohy/Work/xdma_bpu_tx/xdma_bpu_ex.runs/mac_phy_ten_gig_eth_pcs_pma_ch0_0_synth_1
+# Command line: vivado -log mac_phy_ten_gig_eth_pcs_pma_ch0_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source mac_phy_ten_gig_eth_pcs_pma_ch0_0.tcl
+# Log file: /home/caohy/Work/xdma_bpu_tx/xdma_bpu_ex.runs/mac_phy_ten_gig_eth_pcs_pma_ch0_0_synth_1/mac_phy_ten_gig_eth_pcs_pma_ch0_0.vds
+# Journal file: /home/caohy/Work/xdma_bpu_tx/xdma_bpu_ex.runs/mac_phy_ten_gig_eth_pcs_pma_ch0_0_synth_1/vivado.jou
+#-----------------------------------------------------------
+source mac_phy_ten_gig_eth_pcs_pma_ch0_0.tcl -notrace

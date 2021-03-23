@@ -1,0 +1,11 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../xdma_bpu_ex.gen/sources_1/ip/rs_decoder/sim/rs_decoder.vhd" \
+"../../../../xdma_bpu_ex.gen/sources_1/ip/sub_ddc/sim/sub_ddc.vhd" \
+"../../../../xdma_bpu_ex.gen/sources_1/ip/mult_ddc/sim/mult_ddc.vhd" \
+"../../../../xdma_bpu_ex.gen/sources_1/ip/add_ddc/sim/add_ddc.vhd" \
+"../../../../xdma_bpu_ex.gen/sources_1/ip/dds_rq/sim/dds_rq.vhd" \
+"../../../../xdma_bpu_ex.gen/sources_1/ip/dds_ri/sim/dds_ri.vhd" \
+
+# Do not sort compile order
+nosort

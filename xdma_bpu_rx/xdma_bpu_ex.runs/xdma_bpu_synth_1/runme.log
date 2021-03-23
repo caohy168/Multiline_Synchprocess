@@ -1,0 +1,14 @@
+
+*** Running vivado
+    with args -log xdma_bpu.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source xdma_bpu.tcl
+
+
+****** Vivado v2020.2 (64-bit)
+  **** SW Build 3064766 on Wed Nov 18 09:12:47 MST 2020
+  **** IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+    ** Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+
+source xdma_bpu.tcl -notrace
+INFO: [IP_Flow 19-4838] Using cached IP synthesis design for IP xdma_bpu, cache-ID = fb0d0418edba58f2.
+config_ip_cache: Time (s): cpu = 00:00:05 ; elapsed = 00:00:10 . Memory (MB): peak = 2431.352 ; gain = 0.000 ; free physical = 73811 ; free virtual = 78650
+INFO: [Common 17-206] Exiting Vivado at Thu Mar 11 02:38:27 2021...

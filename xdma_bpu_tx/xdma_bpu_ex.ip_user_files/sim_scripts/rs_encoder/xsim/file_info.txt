@@ -1,0 +1,2 @@
+rs_encoder.vhd,vhdl,xil_defaultlib,../../../../xdma_bpu_ex.gen/sources_1/ip/rs_encoder/sim/rs_encoder.vhd,
+glbl.v,Verilog,xil_defaultlib,glbl.v

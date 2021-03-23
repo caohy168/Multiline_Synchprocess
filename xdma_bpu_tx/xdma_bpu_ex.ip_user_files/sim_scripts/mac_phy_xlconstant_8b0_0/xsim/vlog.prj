@@ -1,0 +1,6 @@
+verilog xil_defaultlib --include "/tools/Xilinx/Vivado/2020.2/data/xilinx_vip/include" \
+"../../../../xdma_bpu_ex.gen/sources_1/ip/mac_phy_xlconstant_8b0_0/sim/mac_phy_xlconstant_8b0_0.v" \
+
+verilog xil_defaultlib "glbl.v"
+
+nosort

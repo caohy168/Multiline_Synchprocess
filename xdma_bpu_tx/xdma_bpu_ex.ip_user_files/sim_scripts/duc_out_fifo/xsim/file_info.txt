@@ -1,0 +1,2 @@
+duc_out_fifo.v,verilog,xil_defaultlib,../../../../xdma_bpu_ex.gen/sources_1/ip/duc_out_fifo/sim/duc_out_fifo.v,incdir="$ref_dir/../../../ipstatic/hdl"incdir="../../../ipstatic/hdl"
+glbl.v,Verilog,xil_defaultlib,glbl.v

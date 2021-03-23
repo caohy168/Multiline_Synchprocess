@@ -1,0 +1,2 @@
+mult_ddc.vhd,vhdl,xil_defaultlib,../../../../xdma_bpu_ex.gen/sources_1/ip/mult_ddc/sim/mult_ddc.vhd,
+glbl.v,Verilog,xil_defaultlib,glbl.v

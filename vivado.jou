@@ -1,0 +1,87 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:47 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Sun Dec 27 17:42:17 2020
+# Process ID: 2948
+# Current directory: /home/caohy/Work/dual_line_process
+# Command line: vivado
+# Log file: /home/caohy/Work/dual_line_process/vivado.log
+# Journal file: /home/caohy/Work/dual_line_process/vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project /home/caohy/Work/dual_line_process/xdma_bpu_tx/xdma_bpu_ex.xpr
+update_compile_order -fileset sources_1
+export_ip_user_files -of_objects  [get_files /home/caohy/Work/dual_line_process/xdma_bpu_tx/imports/lane_select.vh] -no_script -reset -force -quiet
+remove_files  /home/caohy/Work/dual_line_process/xdma_bpu_tx/imports/lane_select.vh
+close [ open /home/caohy/Work/dual_line_process/xdma_bpu_tx/xdma_bpu_ex.srcs/sources_1/new/tpu_lane_select.vh w ]
+add_files /home/caohy/Work/dual_line_process/xdma_bpu_tx/xdma_bpu_ex.srcs/sources_1/new/tpu_lane_select.vh
+update_compile_order -fileset sources_1
+report_ip_status -name ip_status 
+upgrade_ip -srcset xdma_bpu -vlnv xilinx.com:ip:xdma:4.1 [get_ips  xdma_bpu] -log ip_upgrade.log
+export_ip_user_files -of_objects [get_ips xdma_bpu] -no_script -sync -force -quiet
+update_compile_order -fileset sources_1
+generate_target all [get_files /home/caohy/Work/dual_line_process/xdma_bpu_tx/imports/pcie/xdma_bpu.xci]
+export_ip_user_files -of_objects [get_files /home/caohy/Work/dual_line_process/xdma_bpu_tx/imports/pcie/xdma_bpu.xci] -no_script -sync -force -quiet
+export_simulation -of_objects [get_files /home/caohy/Work/dual_line_process/xdma_bpu_tx/imports/pcie/xdma_bpu.xci] -directory /home/caohy/Work/dual_line_process/xdma_bpu_tx/xdma_bpu_ex.ip_user_files/sim_scripts -ip_user_files_dir /home/caohy/Work/dual_line_process/xdma_bpu_tx/xdma_bpu_ex.ip_user_files -ipstatic_source_dir /home/caohy/Work/dual_line_process/xdma_bpu_tx/xdma_bpu_ex.ip_user_files/ipstatic -lib_map_path [list {modelsim=/home/caohy/Work/dual_line_process/xdma_bpu_tx/xdma_bpu_ex.cache/compile_simlib/modelsim} {questa=/home/caohy/Work/dual_line_process/xdma_bpu_tx/xdma_bpu_ex.cache/compile_simlib/questa} {ies=/home/caohy/Work/dual_line_process/xdma_bpu_tx/xdma_bpu_ex.cache/compile_simlib/ies} {xcelium=/home/caohy/Work/dual_line_process/xdma_bpu_tx/xdma_bpu_ex.cache/compile_simlib/xcelium} {vcs=/home/caohy/Work/dual_line_process/xdma_bpu_tx/xdma_bpu_ex.cache/compile_simlib/vcs} {riviera=/home/caohy/Work/dual_line_process/xdma_bpu_tx/xdma_bpu_ex.cache/compile_simlib/riviera}] -use_ip_compiled_libs -force -quiet
+create_fileset -blockset xdma_bpu
+set_property top xdma_bpu [get_fileset xdma_bpu]
+move_files -fileset [get_fileset xdma_bpu] [get_files -of_objects [get_fileset sources_1] /home/caohy/Work/dual_line_process/xdma_bpu_tx/imports/pcie/xdma_bpu.xci]
+launch_run xdma_bpu_synth_1
+wait_on_run xdma_bpu_synth_1
+
+launch_simulation
+open_wave_config /home/caohy/Work/dual_line_process/xdma_bpu_tx/board_behav.wcfg
+source board.tcl
+restart
+run all
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+restart
+run all
+current_wave_config {board_behav.wcfg}
+add_wave {{/board/EP/xdma_app_i/s_axis_c2h_tdata_0}} {{/board/EP/xdma_app_i/s_axis_c2h_tlast_0}} {{/board/EP/xdma_app_i/s_axis_c2h_tvalid_0}} {{/board/EP/xdma_app_i/s_axis_c2h_tready_0}} {{/board/EP/xdma_app_i/s_axis_c2h_tkeep_0}} {{/board/EP/xdma_app_i/m_axis_h2c_tdata_0}} {{/board/EP/xdma_app_i/m_axis_h2c_tlast_0}} {{/board/EP/xdma_app_i/m_axis_h2c_tvalid_0}} {{/board/EP/xdma_app_i/m_axis_h2c_tready_0}} {{/board/EP/xdma_app_i/m_axis_h2c_tkeep_0}} 
+current_wave_config {board_behav.wcfg}
+add_wave {{/board/EP/xdma_app_i/s_axis_c2h_tdata_0}} {{/board/EP/xdma_app_i/s_axis_c2h_tlast_0}} {{/board/EP/xdma_app_i/s_axis_c2h_tvalid_0}} {{/board/EP/xdma_app_i/s_axis_c2h_tready_0}} {{/board/EP/xdma_app_i/s_axis_c2h_tkeep_0}} {{/board/EP/xdma_app_i/m_axis_h2c_tdata_0}} {{/board/EP/xdma_app_i/m_axis_h2c_tlast_0}} {{/board/EP/xdma_app_i/m_axis_h2c_tvalid_0}} {{/board/EP/xdma_app_i/m_axis_h2c_tready_0}} {{/board/EP/xdma_app_i/m_axis_h2c_tkeep_0}} 
+current_wave_config {board_behav.wcfg}
+add_wave {{/board/RP/s_axis_rq_tlast}} {{/board/RP/s_axis_rq_tdata}} {{/board/RP/s_axis_rq_tuser}} {{/board/RP/s_axis_rq_tkeep}} {{/board/RP/s_axis_rq_tready}} {{/board/RP/s_axis_rq_tvalid}} {{/board/RP/m_axis_rc_tdata}} {{/board/RP/m_axis_rc_tuser}} {{/board/RP/m_axis_rc_tlast}} {{/board/RP/m_axis_rc_tkeep}} {{/board/RP/m_axis_rc_tvalid}} {{/board/RP/m_axis_rc_tready}} {{/board/RP/m_axis_cq_tdata}} {{/board/RP/m_axis_cq_tuser}} {{/board/RP/m_axis_cq_tlast}} {{/board/RP/m_axis_cq_tkeep}} {{/board/RP/m_axis_cq_tvalid}} {{/board/RP/m_axis_cq_tready}} {{/board/RP/s_axis_cc_tdata}} {{/board/RP/s_axis_cc_tuser}} {{/board/RP/s_axis_cc_tlast}} {{/board/RP/s_axis_cc_tkeep}} {{/board/RP/s_axis_cc_tvalid}} {{/board/RP/s_axis_cc_tready}} 
+relaunch_sim
+set_param general.maxthreads 32
+run all
+relaunch_sim
+run all
+relaunch_sim
+current_wave_config {board_behav.wcfg}
+add_wave {{/board/EP/xphy_txp}} {{/board/EP/xphy_txn}} {{/board/EP/xphy_rxp}} {{/board/EP/xphy_rxn}} 
+restart
+run all
+relaunch_sim
+relaunch_sim
+relaunch_sim
+restart
+relaunch_sim
+run all
+current_wave_config {board_behav.wcfg}
+add_wave {{/board/xphy_txp}} {{/board/xphy_txn}} {{/board/xphy_rxp}} {{/board/xphy_rxn}} 
+restart
+run all
+relaunch_sim
+relaunch_sim
+current_wave_config {board_behav.wcfg}
+add_wave {{/board/EP/xdma_bpu_i}} 
+restart
+run all
+relaunch_sim
+restart
+run all
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top tpu_transmit [current_fileset]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sources_1
+save_wave_config {/home/caohy/Work/dual_line_process/xdma_bpu_tx/board_behav.wcfg}
+close_sim

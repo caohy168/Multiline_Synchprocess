@@ -1,0 +1,2 @@
+add_duc.vhd,vhdl,xil_defaultlib,../../../../xdma_bpu_ex.gen/sources_1/ip/add_duc/sim/add_duc.vhd,
+glbl.v,Verilog,xil_defaultlib,glbl.v

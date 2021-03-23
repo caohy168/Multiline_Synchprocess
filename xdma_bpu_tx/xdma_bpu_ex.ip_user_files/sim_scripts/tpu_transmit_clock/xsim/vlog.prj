@@ -1,0 +1,7 @@
+verilog xil_defaultlib --include "../../../ipstatic" \
+"../../../../xdma_bpu_ex.gen/sources_1/ip/tpu_transmit_clock/tpu_transmit_clock_clk_wiz.v" \
+"../../../../xdma_bpu_ex.gen/sources_1/ip/tpu_transmit_clock/tpu_transmit_clock.v" \
+
+verilog xil_defaultlib "glbl.v"
+
+nosort

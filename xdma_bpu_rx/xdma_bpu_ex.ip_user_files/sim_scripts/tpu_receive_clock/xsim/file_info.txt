@@ -1,0 +1,3 @@
+tpu_receive_clock_clk_wiz.v,verilog,xil_defaultlib,../../../../xdma_bpu_ex.gen/sources_1/ip/tpu_receive_clock/tpu_receive_clock_clk_wiz.v,incdir="$ref_dir/../../../ipstatic"incdir="../../../ipstatic"
+tpu_receive_clock.v,verilog,xil_defaultlib,../../../../xdma_bpu_ex.gen/sources_1/ip/tpu_receive_clock/tpu_receive_clock.v,incdir="$ref_dir/../../../ipstatic"incdir="../../../ipstatic"
+glbl.v,Verilog,xil_defaultlib,glbl.v

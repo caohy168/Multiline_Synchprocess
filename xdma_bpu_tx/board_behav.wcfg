@@ -1,0 +1,837 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="board_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="\$unit_crc_generator_sv " />
+            <top_module name="\$unit_xdma_bpu_dma_bram_wrap_sv " />
+            <top_module name="board" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="6184162fs"></ZoomStartTime>
+      <ZoomEndTime time="6428506fs"></ZoomEndTime>
+      <Cursor1Time time="1568000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="181"></NameColumnWidth>
+      <ValueColumnWidth column_width="83"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="175" />
+   <wvobject type="logic" fp_name="/board/RP/s_axis_rq_tlast">
+      <obj_property name="ElementShortName">s_axis_rq_tlast</obj_property>
+      <obj_property name="ObjectShortName">s_axis_rq_tlast</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/board/RP/s_axis_rq_tdata">
+      <obj_property name="ElementShortName">s_axis_rq_tdata[255:0]</obj_property>
+      <obj_property name="ObjectShortName">s_axis_rq_tdata[255:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/board/RP/s_axis_rq_tuser">
+      <obj_property name="ElementShortName">s_axis_rq_tuser[59:0]</obj_property>
+      <obj_property name="ObjectShortName">s_axis_rq_tuser[59:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/board/RP/s_axis_rq_tkeep">
+      <obj_property name="ElementShortName">s_axis_rq_tkeep[7:0]</obj_property>
+      <obj_property name="ObjectShortName">s_axis_rq_tkeep[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/board/RP/s_axis_rq_tready">
+      <obj_property name="ElementShortName">s_axis_rq_tready[3:0]</obj_property>
+      <obj_property name="ObjectShortName">s_axis_rq_tready[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/board/RP/s_axis_rq_tvalid">
+      <obj_property name="ElementShortName">s_axis_rq_tvalid</obj_property>
+      <obj_property name="ObjectShortName">s_axis_rq_tvalid</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/board/RP/m_axis_rc_tdata">
+      <obj_property name="ElementShortName">m_axis_rc_tdata[255:0]</obj_property>
+      <obj_property name="ObjectShortName">m_axis_rc_tdata[255:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/board/RP/m_axis_rc_tuser">
+      <obj_property name="ElementShortName">m_axis_rc_tuser[74:0]</obj_property>
+      <obj_property name="ObjectShortName">m_axis_rc_tuser[74:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/board/RP/m_axis_rc_tlast">
+      <obj_property name="ElementShortName">m_axis_rc_tlast</obj_property>
+      <obj_property name="ObjectShortName">m_axis_rc_tlast</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/board/RP/m_axis_rc_tkeep">
+      <obj_property name="ElementShortName">m_axis_rc_tkeep[7:0]</obj_property>
+      <obj_property name="ObjectShortName">m_axis_rc_tkeep[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/board/RP/m_axis_rc_tvalid">
+      <obj_property name="ElementShortName">m_axis_rc_tvalid</obj_property>
+      <obj_property name="ObjectShortName">m_axis_rc_tvalid</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/board/RP/m_axis_rc_tready">
+      <obj_property name="ElementShortName">m_axis_rc_tready</obj_property>
+      <obj_property name="ObjectShortName">m_axis_rc_tready</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/board/RP/m_axis_cq_tdata">
+      <obj_property name="ElementShortName">m_axis_cq_tdata[255:0]</obj_property>
+      <obj_property name="ObjectShortName">m_axis_cq_tdata[255:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/board/RP/m_axis_cq_tuser">
+      <obj_property name="ElementShortName">m_axis_cq_tuser[84:0]</obj_property>
+      <obj_property name="ObjectShortName">m_axis_cq_tuser[84:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/board/RP/m_axis_cq_tlast">
+      <obj_property name="ElementShortName">m_axis_cq_tlast</obj_property>
+      <obj_property name="ObjectShortName">m_axis_cq_tlast</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/board/RP/m_axis_cq_tkeep">
+      <obj_property name="ElementShortName">m_axis_cq_tkeep[7:0]</obj_property>
+      <obj_property name="ObjectShortName">m_axis_cq_tkeep[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/board/RP/m_axis_cq_tvalid">
+      <obj_property name="ElementShortName">m_axis_cq_tvalid</obj_property>
+      <obj_property name="ObjectShortName">m_axis_cq_tvalid</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/board/RP/m_axis_cq_tready">
+      <obj_property name="ElementShortName">m_axis_cq_tready</obj_property>
+      <obj_property name="ObjectShortName">m_axis_cq_tready</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/board/RP/tx_usrapp/user_clk">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">user_clk</obj_property>
+      <obj_property name="ObjectShortName">user_clk</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/board/cq_data_beat_count">
+      <obj_property name="ElementShortName">cq_data_beat_count[31:0]</obj_property>
+      <obj_property name="ObjectShortName">cq_data_beat_count[31:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/board/RP/s_axis_cc_tdata">
+      <obj_property name="ElementShortName">s_axis_cc_tdata[255:0]</obj_property>
+      <obj_property name="ObjectShortName">s_axis_cc_tdata[255:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/board/RP/s_axis_cc_tuser">
+      <obj_property name="ElementShortName">s_axis_cc_tuser[32:0]</obj_property>
+      <obj_property name="ObjectShortName">s_axis_cc_tuser[32:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/board/RP/s_axis_cc_tlast">
+      <obj_property name="ElementShortName">s_axis_cc_tlast</obj_property>
+      <obj_property name="ObjectShortName">s_axis_cc_tlast</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/board/RP/s_axis_cc_tkeep">
+      <obj_property name="ElementShortName">s_axis_cc_tkeep[7:0]</obj_property>
+      <obj_property name="ObjectShortName">s_axis_cc_tkeep[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/board/RP/s_axis_cc_tvalid">
+      <obj_property name="ElementShortName">s_axis_cc_tvalid</obj_property>
+      <obj_property name="ObjectShortName">s_axis_cc_tvalid</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/board/RP/s_axis_cc_tready">
+      <obj_property name="ElementShortName">s_axis_cc_tready[3:0]</obj_property>
+      <obj_property name="ObjectShortName">s_axis_cc_tready[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/board/tpu_transmit/EP/s_axis_c2h_tdata_0">
+      <obj_property name="ElementShortName">s_axis_c2h_tdata_0[63:0]</obj_property>
+      <obj_property name="ObjectShortName">s_axis_c2h_tdata_0[63:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/board/tpu_transmit/EP/s_axis_c2h_tlast_0">
+      <obj_property name="ElementShortName">s_axis_c2h_tlast_0</obj_property>
+      <obj_property name="ObjectShortName">s_axis_c2h_tlast_0</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/board/tpu_transmit/EP/s_axis_c2h_tuser_0">
+      <obj_property name="ElementShortName">s_axis_c2h_tuser_0[7:0]</obj_property>
+      <obj_property name="ObjectShortName">s_axis_c2h_tuser_0[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/board/tpu_transmit/EP/s_axis_c2h_tkeep_0">
+      <obj_property name="ElementShortName">s_axis_c2h_tkeep_0[7:0]</obj_property>
+      <obj_property name="ObjectShortName">s_axis_c2h_tkeep_0[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/board/tpu_transmit/EP/s_axis_c2h_tvalid_0">
+      <obj_property name="ElementShortName">s_axis_c2h_tvalid_0</obj_property>
+      <obj_property name="ObjectShortName">s_axis_c2h_tvalid_0</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/board/tpu_transmit/EP/s_axis_c2h_tready_0">
+      <obj_property name="ElementShortName">s_axis_c2h_tready_0</obj_property>
+      <obj_property name="ObjectShortName">s_axis_c2h_tready_0</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/board/tpu_transmit/EP/m_axis_h2c_tdata_0">
+      <obj_property name="ElementShortName">m_axis_h2c_tdata_0[63:0]</obj_property>
+      <obj_property name="ObjectShortName">m_axis_h2c_tdata_0[63:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/board/tpu_transmit/EP/m_axis_h2c_tlast_0">
+      <obj_property name="ElementShortName">m_axis_h2c_tlast_0</obj_property>
+      <obj_property name="ObjectShortName">m_axis_h2c_tlast_0</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/board/tpu_transmit/EP/m_axis_h2c_tuser_0">
+      <obj_property name="ElementShortName">m_axis_h2c_tuser_0[7:0]</obj_property>
+      <obj_property name="ObjectShortName">m_axis_h2c_tuser_0[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/board/tpu_transmit/EP/m_axis_h2c_tkeep_0">
+      <obj_property name="ElementShortName">m_axis_h2c_tkeep_0[7:0]</obj_property>
+      <obj_property name="ObjectShortName">m_axis_h2c_tkeep_0[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/board/tpu_transmit/EP/m_axis_h2c_tvalid_0">
+      <obj_property name="ElementShortName">m_axis_h2c_tvalid_0</obj_property>
+      <obj_property name="ObjectShortName">m_axis_h2c_tvalid_0</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/board/tpu_transmit/EP/m_axis_h2c_tready_0">
+      <obj_property name="ElementShortName">m_axis_h2c_tready_0</obj_property>
+      <obj_property name="ObjectShortName">m_axis_h2c_tready_0</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/board/led_0">
+      <obj_property name="ElementShortName">led_0</obj_property>
+      <obj_property name="ObjectShortName">led_0</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/board/led_1">
+      <obj_property name="ElementShortName">led_1</obj_property>
+      <obj_property name="ObjectShortName">led_1</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/board/led_2">
+      <obj_property name="ElementShortName">led_2</obj_property>
+      <obj_property name="ObjectShortName">led_2</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/board/led_3">
+      <obj_property name="ElementShortName">led_3</obj_property>
+      <obj_property name="ObjectShortName">led_3</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/board/xphy_txp">
+      <obj_property name="ElementShortName">xphy_txp[0:0]</obj_property>
+      <obj_property name="ObjectShortName">xphy_txp[0:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/board/xphy_txn">
+      <obj_property name="ElementShortName">xphy_txn[0:0]</obj_property>
+      <obj_property name="ObjectShortName">xphy_txn[0:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/board/xphy_rxp">
+      <obj_property name="ElementShortName">xphy_rxp[0:0]</obj_property>
+      <obj_property name="ObjectShortName">xphy_rxp[0:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/board/xphy_rxn">
+      <obj_property name="ElementShortName">xphy_rxn[0:0]</obj_property>
+      <obj_property name="ObjectShortName">xphy_rxn[0:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/board/tpu_transmit/dst_transmit/rx_axis_tdata_pcie">
+      <obj_property name="ElementShortName">rx_axis_tdata_pcie[63:0]</obj_property>
+      <obj_property name="ObjectShortName">rx_axis_tdata_pcie[63:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/board/tpu_transmit/dst_transmit/rx_axis_tlast_pcie">
+      <obj_property name="ElementShortName">rx_axis_tlast_pcie</obj_property>
+      <obj_property name="ObjectShortName">rx_axis_tlast_pcie</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/board/tpu_transmit/dst_transmit/rx_axis_tuser_pcie">
+      <obj_property name="ElementShortName">rx_axis_tuser_pcie[7:0]</obj_property>
+      <obj_property name="ObjectShortName">rx_axis_tuser_pcie[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/board/tpu_transmit/dst_transmit/rx_axis_tkeep_pcie">
+      <obj_property name="ElementShortName">rx_axis_tkeep_pcie[7:0]</obj_property>
+      <obj_property name="ObjectShortName">rx_axis_tkeep_pcie[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/board/tpu_transmit/dst_transmit/rx_axis_tvalid_pcie">
+      <obj_property name="ElementShortName">rx_axis_tvalid_pcie</obj_property>
+      <obj_property name="ObjectShortName">rx_axis_tvalid_pcie</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/board/tpu_transmit/dst_transmit/rx_axis_tready_pcie">
+      <obj_property name="ElementShortName">rx_axis_tready_pcie</obj_property>
+      <obj_property name="ObjectShortName">rx_axis_tready_pcie</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/board/tpu_transmit/dst_transmit/rx_axis_tdata_pcie">
+      <obj_property name="ElementShortName">rx_axis_tdata_pcie[63:0]</obj_property>
+      <obj_property name="ObjectShortName">rx_axis_tdata_pcie[63:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/board/tpu_transmit/dst_transmit/rx_axis_tlast_pcie">
+      <obj_property name="ElementShortName">rx_axis_tlast_pcie</obj_property>
+      <obj_property name="ObjectShortName">rx_axis_tlast_pcie</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/board/tpu_transmit/dst_transmit/rx_axis_tuser_pcie">
+      <obj_property name="ElementShortName">rx_axis_tuser_pcie[7:0]</obj_property>
+      <obj_property name="ObjectShortName">rx_axis_tuser_pcie[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/board/tpu_transmit/dst_transmit/rx_axis_tkeep_pcie">
+      <obj_property name="ElementShortName">rx_axis_tkeep_pcie[7:0]</obj_property>
+      <obj_property name="ObjectShortName">rx_axis_tkeep_pcie[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/board/tpu_transmit/dst_transmit/rx_axis_tvalid_pcie">
+      <obj_property name="ElementShortName">rx_axis_tvalid_pcie</obj_property>
+      <obj_property name="ObjectShortName">rx_axis_tvalid_pcie</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/board/tpu_transmit/dst_transmit/rx_axis_tready_pcie">
+      <obj_property name="ElementShortName">rx_axis_tready_pcie</obj_property>
+      <obj_property name="ObjectShortName">rx_axis_tready_pcie</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/board/tpu_transmit/dst_transmit/lane2_pkg_dat_right_pcie">
+      <obj_property name="ElementShortName">lane2_pkg_dat_right_pcie[59:1][63:0]</obj_property>
+      <obj_property name="ObjectShortName">lane2_pkg_dat_right_pcie[59:1][63:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/board/tpu_transmit/dst_transmit/lane2_pkg_dat8_right_pcie">
+      <obj_property name="ElementShortName">lane2_pkg_dat8_right_pcie[472:1][7:0]</obj_property>
+      <obj_property name="ObjectShortName">lane2_pkg_dat8_right_pcie[472:1][7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/board/tpu_transmit/dst_transmit/lane2_pcie_i">
+      <obj_property name="ElementShortName">lane2_pcie_i[15:0]</obj_property>
+      <obj_property name="ObjectShortName">lane2_pcie_i[15:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/board/tpu_transmit/dst_transmit/pkg_dat_pcie">
+      <obj_property name="ElementShortName">pkg_dat_pcie[61:1][63:0]</obj_property>
+      <obj_property name="ObjectShortName">pkg_dat_pcie[61:1][63:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/board/tpu_transmit/dst_transmit/dat_pcie_i">
+      <obj_property name="ElementShortName">dat_pcie_i[15:0]</obj_property>
+      <obj_property name="ObjectShortName">dat_pcie_i[15:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/board/tpu_transmit/dst_transmit/dat_pcie_j">
+      <obj_property name="ElementShortName">dat_pcie_j[15:0]</obj_property>
+      <obj_property name="ObjectShortName">dat_pcie_j[15:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/board/tpu_transmit/dst_transmit/tranfer_state_right_pcie">
+      <obj_property name="ElementShortName">tranfer_state_right_pcie[15:0]</obj_property>
+      <obj_property name="ObjectShortName">tranfer_state_right_pcie[15:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/board/tpu_transmit/dst_transmit/pkg_cnt_right_pcie">
+      <obj_property name="ElementShortName">pkg_cnt_right_pcie[15:0]</obj_property>
+      <obj_property name="ObjectShortName">pkg_cnt_right_pcie[15:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/board/tpu_transmit/dst_transmit/aclk">
+      <obj_property name="ElementShortName">aclk</obj_property>
+      <obj_property name="ObjectShortName">aclk</obj_property>
+      <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/board/tpu_transmit/dst_transmit/pcie_user_clk">
+      <obj_property name="ElementShortName">pcie_user_clk</obj_property>
+      <obj_property name="ObjectShortName">pcie_user_clk</obj_property>
+      <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/board/tpu_transmit/dst_transmit/reset">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+      <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/board/tpu_transmit/dst_transmit/rx_axis_tdata_pcie">
+      <obj_property name="ElementShortName">rx_axis_tdata_pcie[63:0]</obj_property>
+      <obj_property name="ObjectShortName">rx_axis_tdata_pcie[63:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/board/tpu_transmit/dst_transmit/rx_axis_tlast_pcie">
+      <obj_property name="ElementShortName">rx_axis_tlast_pcie</obj_property>
+      <obj_property name="ObjectShortName">rx_axis_tlast_pcie</obj_property>
+      <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/board/tpu_transmit/dst_transmit/rx_axis_tuser_pcie">
+      <obj_property name="ElementShortName">rx_axis_tuser_pcie[7:0]</obj_property>
+      <obj_property name="ObjectShortName">rx_axis_tuser_pcie[7:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/board/tpu_transmit/dst_transmit/rx_axis_tkeep_pcie">
+      <obj_property name="ElementShortName">rx_axis_tkeep_pcie[7:0]</obj_property>
+      <obj_property name="ObjectShortName">rx_axis_tkeep_pcie[7:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/board/tpu_transmit/dst_transmit/rx_axis_tvalid_pcie">
+      <obj_property name="ElementShortName">rx_axis_tvalid_pcie</obj_property>
+      <obj_property name="ObjectShortName">rx_axis_tvalid_pcie</obj_property>
+      <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/board/tpu_transmit/dst_transmit/rx_axis_tready_pcie">
+      <obj_property name="ElementShortName">rx_axis_tready_pcie</obj_property>
+      <obj_property name="ObjectShortName">rx_axis_tready_pcie</obj_property>
+      <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/board/tpu_transmit/dst_transmit/rx_axis_tdata_10g">
+      <obj_property name="ElementShortName">rx_axis_tdata_10g[63:0]</obj_property>
+      <obj_property name="ObjectShortName">rx_axis_tdata_10g[63:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/board/tpu_transmit/dst_transmit/rx_axis_tkeep_10g">
+      <obj_property name="ElementShortName">rx_axis_tkeep_10g[7:0]</obj_property>
+      <obj_property name="ObjectShortName">rx_axis_tkeep_10g[7:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/board/tpu_transmit/dst_transmit/rx_axis_tvalid_10g">
+      <obj_property name="ElementShortName">rx_axis_tvalid_10g</obj_property>
+      <obj_property name="ObjectShortName">rx_axis_tvalid_10g</obj_property>
+      <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/board/tpu_transmit/dst_transmit/rx_axis_tlast_10g">
+      <obj_property name="ElementShortName">rx_axis_tlast_10g</obj_property>
+      <obj_property name="ObjectShortName">rx_axis_tlast_10g</obj_property>
+      <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/board/tpu_transmit/dst_transmit/rx_axis_tuser_10g">
+      <obj_property name="ElementShortName">rx_axis_tuser_10g</obj_property>
+      <obj_property name="ObjectShortName">rx_axis_tuser_10g</obj_property>
+      <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/board/tpu_transmit/dst_transmit/rx_axis_tready_10g">
+      <obj_property name="ElementShortName">rx_axis_tready_10g</obj_property>
+      <obj_property name="ObjectShortName">rx_axis_tready_10g</obj_property>
+      <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/board/tpu_transmit/dst_transmit/tx_axis_tdata_right">
+      <obj_property name="ElementShortName">tx_axis_tdata_right[63:0]</obj_property>
+      <obj_property name="ObjectShortName">tx_axis_tdata_right[63:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/board/tpu_transmit/dst_transmit/tx_axis_tkeep_right">
+      <obj_property name="ElementShortName">tx_axis_tkeep_right[7:0]</obj_property>
+      <obj_property name="ObjectShortName">tx_axis_tkeep_right[7:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/board/tpu_transmit/dst_transmit/tx_axis_tvalid_right">
+      <obj_property name="ElementShortName">tx_axis_tvalid_right</obj_property>
+      <obj_property name="ObjectShortName">tx_axis_tvalid_right</obj_property>
+      <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/board/tpu_transmit/dst_transmit/tx_axis_tlast_right">
+      <obj_property name="ElementShortName">tx_axis_tlast_right</obj_property>
+      <obj_property name="ObjectShortName">tx_axis_tlast_right</obj_property>
+      <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/board/tpu_transmit/dst_transmit/tx_axis_tuser_right">
+      <obj_property name="ElementShortName">tx_axis_tuser_right</obj_property>
+      <obj_property name="ObjectShortName">tx_axis_tuser_right</obj_property>
+      <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/board/tpu_transmit/dst_transmit/tx_axis_tready_right">
+      <obj_property name="ElementShortName">tx_axis_tready_right</obj_property>
+      <obj_property name="ObjectShortName">tx_axis_tready_right</obj_property>
+      <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/board/tpu_transmit/dst_transmit/tranfer_state_right_pcie">
+      <obj_property name="ElementShortName">tranfer_state_right_pcie[15:0]</obj_property>
+      <obj_property name="ObjectShortName">tranfer_state_right_pcie[15:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/board/tpu_transmit/dst_transmit/pkg_cnt_right_pcie">
+      <obj_property name="ElementShortName">pkg_cnt_right_pcie[15:0]</obj_property>
+      <obj_property name="ObjectShortName">pkg_cnt_right_pcie[15:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/board/tpu_transmit/dst_transmit/lane2_pkg_dat_right_pcie">
+      <obj_property name="ElementShortName">lane2_pkg_dat_right_pcie[59:1][63:0]</obj_property>
+      <obj_property name="ObjectShortName">lane2_pkg_dat_right_pcie[59:1][63:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/board/tpu_transmit/dst_transmit/lane2_pkg_dat8_right_pcie">
+      <obj_property name="ElementShortName">lane2_pkg_dat8_right_pcie[472:1][7:0]</obj_property>
+      <obj_property name="ObjectShortName">lane2_pkg_dat8_right_pcie[472:1][7:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/board/tpu_transmit/dst_transmit/lane2_pcie_i">
+      <obj_property name="ElementShortName">lane2_pcie_i[15:0]</obj_property>
+      <obj_property name="ObjectShortName">lane2_pcie_i[15:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/board/tpu_transmit/dst_transmit/pkg_dat_pcie">
+      <obj_property name="ElementShortName">pkg_dat_pcie[61:1][63:0]</obj_property>
+      <obj_property name="ObjectShortName">pkg_dat_pcie[61:1][63:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/board/tpu_transmit/dst_transmit/dat_pcie_i">
+      <obj_property name="ElementShortName">dat_pcie_i[15:0]</obj_property>
+      <obj_property name="ObjectShortName">dat_pcie_i[15:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/board/tpu_transmit/dst_transmit/state_sb">
+      <obj_property name="ElementShortName">state_sb[15:0]</obj_property>
+      <obj_property name="ObjectShortName">state_sb[15:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/board/tpu_transmit/dst_transmit/dat_pcie_j">
+      <obj_property name="ElementShortName">dat_pcie_j[15:0]</obj_property>
+      <obj_property name="ObjectShortName">dat_pcie_j[15:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/board/tpu_transmit/dst_transmit/pkg_send_cnt">
+      <obj_property name="ElementShortName">pkg_send_cnt[15:0]</obj_property>
+      <obj_property name="ObjectShortName">pkg_send_cnt[15:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/board/tpu_transmit/tpu_pushstream/clk_250m">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">clk_250m</obj_property>
+      <obj_property name="ObjectShortName">clk_250m</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/board/tpu_transmit/tpu_pushstream/clk_500m">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">clk_500m</obj_property>
+      <obj_property name="ObjectShortName">clk_500m</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/board/tpu_transmit/tpu_pushstream/reset">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/board/tpu_transmit/tpu_pushstream/s_axis_input_tvalid">
+      <obj_property name="ElementShortName">s_axis_input_tvalid</obj_property>
+      <obj_property name="ObjectShortName">s_axis_input_tvalid</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/board/tpu_transmit/tpu_pushstream/s_axis_input_tready">
+      <obj_property name="ElementShortName">s_axis_input_tready</obj_property>
+      <obj_property name="ObjectShortName">s_axis_input_tready</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/board/tpu_transmit/tpu_pushstream/s_axis_input_tdata">
+      <obj_property name="ElementShortName">s_axis_input_tdata[63:0]</obj_property>
+      <obj_property name="ObjectShortName">s_axis_input_tdata[63:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/board/tpu_transmit/tpu_pushstream/s_axis_input_tlast">
+      <obj_property name="ElementShortName">s_axis_input_tlast</obj_property>
+      <obj_property name="ObjectShortName">s_axis_input_tlast</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/board/tpu_transmit/tpu_pushstream/m_axis_outputDAI_tvalid">
+      <obj_property name="ElementShortName">m_axis_outputDAI_tvalid[0:7]</obj_property>
+      <obj_property name="ObjectShortName">m_axis_outputDAI_tvalid[0:7]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/board/tpu_transmit/tpu_pushstream/m_axis_outputDAQ_tvalid">
+      <obj_property name="ElementShortName">m_axis_outputDAQ_tvalid[0:7]</obj_property>
+      <obj_property name="ObjectShortName">m_axis_outputDAQ_tvalid[0:7]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/board/tpu_transmit/tpu_pushstream/m_axis_outputDAI_tlast">
+      <obj_property name="ElementShortName">m_axis_outputDAI_tlast[0:7]</obj_property>
+      <obj_property name="ObjectShortName">m_axis_outputDAI_tlast[0:7]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/board/tpu_transmit/tpu_pushstream/m_axis_outputDAQ_tlast">
+      <obj_property name="ElementShortName">m_axis_outputDAQ_tlast[0:7]</obj_property>
+      <obj_property name="ObjectShortName">m_axis_outputDAQ_tlast[0:7]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/board/tpu_transmit/tpu_pushstream/m_axis_outputDAI_tdata">
+      <obj_property name="ElementShortName">m_axis_outputDAI_tdata[0:7][15:0]</obj_property>
+      <obj_property name="ObjectShortName">m_axis_outputDAI_tdata[0:7][15:0]</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/board/tpu_transmit/tpu_pushstream/m_axis_outputDAQ_tdata">
+      <obj_property name="ElementShortName">m_axis_outputDAQ_tdata[0:7][15:0]</obj_property>
+      <obj_property name="ObjectShortName">m_axis_outputDAQ_tdata[0:7][15:0]</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/board/tpu_transmit/tpu_pushstream/m_axis_outputI_tvalid_8">
+      <obj_property name="ElementShortName">m_axis_outputI_tvalid_8[0:7]</obj_property>
+      <obj_property name="ObjectShortName">m_axis_outputI_tvalid_8[0:7]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/board/tpu_transmit/tpu_pushstream/m_axis_outputI_tready_8">
+      <obj_property name="ElementShortName">m_axis_outputI_tready_8[0:7]</obj_property>
+      <obj_property name="ObjectShortName">m_axis_outputI_tready_8[0:7]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/board/tpu_transmit/tpu_pushstream/m_axis_outputI_tdata_8">
+      <obj_property name="ElementShortName">m_axis_outputI_tdata_8[0:7][7:0]</obj_property>
+      <obj_property name="ObjectShortName">m_axis_outputI_tdata_8[0:7][7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/board/tpu_transmit/tpu_pushstream/m_axis_outputI_tlast_8">
+      <obj_property name="ElementShortName">m_axis_outputI_tlast_8[0:7]</obj_property>
+      <obj_property name="ObjectShortName">m_axis_outputI_tlast_8[0:7]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/board/tpu_transmit/tpu_pushstream/m_axis_outputQ_tvalid_8">
+      <obj_property name="ElementShortName">m_axis_outputQ_tvalid_8[0:7]</obj_property>
+      <obj_property name="ObjectShortName">m_axis_outputQ_tvalid_8[0:7]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/board/tpu_transmit/tpu_pushstream/m_axis_outputQ_tready_8">
+      <obj_property name="ElementShortName">m_axis_outputQ_tready_8[0:7]</obj_property>
+      <obj_property name="ObjectShortName">m_axis_outputQ_tready_8[0:7]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/board/tpu_transmit/tpu_pushstream/m_axis_outputQ_tdata_8">
+      <obj_property name="ElementShortName">m_axis_outputQ_tdata_8[0:7][7:0]</obj_property>
+      <obj_property name="ObjectShortName">m_axis_outputQ_tdata_8[0:7][7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/board/tpu_transmit/tpu_pushstream/m_axis_outputQ_tlast_8">
+      <obj_property name="ElementShortName">m_axis_outputQ_tlast_8[0:7]</obj_property>
+      <obj_property name="ObjectShortName">m_axis_outputQ_tlast_8[0:7]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/board/tpu_transmit/tpu_pushstream/m_axis_outputI_tvalid">
+      <obj_property name="ElementShortName">m_axis_outputI_tvalid[0:7]</obj_property>
+      <obj_property name="ObjectShortName">m_axis_outputI_tvalid[0:7]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/board/tpu_transmit/tpu_pushstream/m_axis_outputI_tready">
+      <obj_property name="ElementShortName">m_axis_outputI_tready[0:7]</obj_property>
+      <obj_property name="ObjectShortName">m_axis_outputI_tready[0:7]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/board/tpu_transmit/tpu_pushstream/m_axis_outputI_tdata">
+      <obj_property name="ElementShortName">m_axis_outputI_tdata[0:7][15:0]</obj_property>
+      <obj_property name="ObjectShortName">m_axis_outputI_tdata[0:7][15:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/board/tpu_transmit/tpu_pushstream/m_axis_outputI_tlast">
+      <obj_property name="ElementShortName">m_axis_outputI_tlast[0:7]</obj_property>
+      <obj_property name="ObjectShortName">m_axis_outputI_tlast[0:7]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/board/tpu_transmit/tpu_pushstream/m_axis_outputQ_tvalid">
+      <obj_property name="ElementShortName">m_axis_outputQ_tvalid[0:7]</obj_property>
+      <obj_property name="ObjectShortName">m_axis_outputQ_tvalid[0:7]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/board/tpu_transmit/tpu_pushstream/m_axis_outputQ_tready">
+      <obj_property name="ElementShortName">m_axis_outputQ_tready[0:7]</obj_property>
+      <obj_property name="ObjectShortName">m_axis_outputQ_tready[0:7]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/board/tpu_transmit/tpu_pushstream/m_axis_outputQ_tdata">
+      <obj_property name="ElementShortName">m_axis_outputQ_tdata[0:7][15:0]</obj_property>
+      <obj_property name="ObjectShortName">m_axis_outputQ_tdata[0:7][15:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/board/tpu_transmit/tpu_pushstream/m_axis_outputQ_tlast">
+      <obj_property name="ElementShortName">m_axis_outputQ_tlast[0:7]</obj_property>
+      <obj_property name="ObjectShortName">m_axis_outputQ_tlast[0:7]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/board/tpu_transmit/tpu_pushstream/m_axis_outputI_tvalid_radio">
+      <obj_property name="ElementShortName">m_axis_outputI_tvalid_radio[0:7]</obj_property>
+      <obj_property name="ObjectShortName">m_axis_outputI_tvalid_radio[0:7]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/board/tpu_transmit/tpu_pushstream/m_axis_outputI_tready_radio">
+      <obj_property name="ElementShortName">m_axis_outputI_tready_radio[0:7]</obj_property>
+      <obj_property name="ObjectShortName">m_axis_outputI_tready_radio[0:7]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/board/tpu_transmit/tpu_pushstream/m_axis_outputI_tdata_radio">
+      <obj_property name="ElementShortName">m_axis_outputI_tdata_radio[0:7][15:0]</obj_property>
+      <obj_property name="ObjectShortName">m_axis_outputI_tdata_radio[0:7][15:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/board/tpu_transmit/tpu_pushstream/m_axis_outputI_tlast_radio">
+      <obj_property name="ElementShortName">m_axis_outputI_tlast_radio[0:7]</obj_property>
+      <obj_property name="ObjectShortName">m_axis_outputI_tlast_radio[0:7]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/board/tpu_transmit/tpu_pushstream/m_axis_outputQ_tvalid_radio">
+      <obj_property name="ElementShortName">m_axis_outputQ_tvalid_radio[0:7]</obj_property>
+      <obj_property name="ObjectShortName">m_axis_outputQ_tvalid_radio[0:7]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/board/tpu_transmit/tpu_pushstream/m_axis_outputQ_tready_radio">
+      <obj_property name="ElementShortName">m_axis_outputQ_tready_radio[0:7]</obj_property>
+      <obj_property name="ObjectShortName">m_axis_outputQ_tready_radio[0:7]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/board/tpu_transmit/tpu_pushstream/m_axis_outputQ_tdata_radio">
+      <obj_property name="ElementShortName">m_axis_outputQ_tdata_radio[0:7][15:0]</obj_property>
+      <obj_property name="ObjectShortName">m_axis_outputQ_tdata_radio[0:7][15:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/board/tpu_transmit/tpu_pushstream/m_axis_outputQ_tlast_radio">
+      <obj_property name="ElementShortName">m_axis_outputQ_tlast_radio[0:7]</obj_property>
+      <obj_property name="ObjectShortName">m_axis_outputQ_tlast_radio[0:7]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/board/tpu_transmit/tpu_pushstream/m_axis_outputI_tvalid_radio8">
+      <obj_property name="ElementShortName">m_axis_outputI_tvalid_radio8[0:7]</obj_property>
+      <obj_property name="ObjectShortName">m_axis_outputI_tvalid_radio8[0:7]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/board/tpu_transmit/tpu_pushstream/m_axis_outputI_tready_radio8">
+      <obj_property name="ElementShortName">m_axis_outputI_tready_radio8[0:7]</obj_property>
+      <obj_property name="ObjectShortName">m_axis_outputI_tready_radio8[0:7]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/board/tpu_transmit/tpu_pushstream/m_axis_outputI_tdata_radio8">
+      <obj_property name="ElementShortName">m_axis_outputI_tdata_radio8[0:7][7:0]</obj_property>
+      <obj_property name="ObjectShortName">m_axis_outputI_tdata_radio8[0:7][7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/board/tpu_transmit/tpu_pushstream/m_axis_outputI_tlast_radio8">
+      <obj_property name="ElementShortName">m_axis_outputI_tlast_radio8[0:7]</obj_property>
+      <obj_property name="ObjectShortName">m_axis_outputI_tlast_radio8[0:7]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/board/tpu_transmit/tpu_pushstream/m_axis_outputQ_tvalid_radio8">
+      <obj_property name="ElementShortName">m_axis_outputQ_tvalid_radio8[0:7]</obj_property>
+      <obj_property name="ObjectShortName">m_axis_outputQ_tvalid_radio8[0:7]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/board/tpu_transmit/tpu_pushstream/m_axis_outputQ_tready_radio8">
+      <obj_property name="ElementShortName">m_axis_outputQ_tready_radio8[0:7]</obj_property>
+      <obj_property name="ObjectShortName">m_axis_outputQ_tready_radio8[0:7]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/board/tpu_transmit/tpu_pushstream/m_axis_outputQ_tdata_radio8">
+      <obj_property name="ElementShortName">m_axis_outputQ_tdata_radio8[0:7][7:0]</obj_property>
+      <obj_property name="ObjectShortName">m_axis_outputQ_tdata_radio8[0:7][7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/board/tpu_transmit/tpu_pushstream/m_axis_outputQ_tlast_radio8">
+      <obj_property name="ElementShortName">m_axis_outputQ_tlast_radio8[0:7]</obj_property>
+      <obj_property name="ObjectShortName">m_axis_outputQ_tlast_radio8[0:7]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/board/cq_valid_wait_cnt_p1">
+      <obj_property name="ElementShortName">cq_valid_wait_cnt_p1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">cq_valid_wait_cnt_p1[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/board/cq_valid_wait_cnt_p2">
+      <obj_property name="ElementShortName">cq_valid_wait_cnt_p2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">cq_valid_wait_cnt_p2[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/board/cq_data_beat_count">
+      <obj_property name="ElementShortName">cq_data_beat_count[31:0]</obj_property>
+      <obj_property name="ObjectShortName">cq_data_beat_count[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/board/pkg_push_i">
+      <obj_property name="ElementShortName">pkg_push_i[31:0]</obj_property>
+      <obj_property name="ObjectShortName">pkg_push_i[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/board/cq_p_i">
+      <obj_property name="ElementShortName">cq_p_i[0:7][31:0]</obj_property>
+      <obj_property name="ObjectShortName">cq_p_i[0:7][31:0]</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/board/cq_p_j">
+      <obj_property name="ElementShortName">cq_p_j[0:7][31:0]</obj_property>
+      <obj_property name="ObjectShortName">cq_p_j[0:7][31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/board/pcie_root_source_p">
+      <obj_property name="ElementShortName">pcie_root_source_p[0:7][0:29][127:0]</obj_property>
+      <obj_property name="ObjectShortName">pcie_root_source_p[0:7][0:29][127:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/board/cq_valid_wait_cnt_p1">
+      <obj_property name="ElementShortName">cq_valid_wait_cnt_p1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">cq_valid_wait_cnt_p1[31:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/board/cq_valid_wait_cnt_p2">
+      <obj_property name="ElementShortName">cq_valid_wait_cnt_p2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">cq_valid_wait_cnt_p2[31:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/board/cq_data_beat_count">
+      <obj_property name="ElementShortName">cq_data_beat_count[31:0]</obj_property>
+      <obj_property name="ObjectShortName">cq_data_beat_count[31:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/board/cq_p_i">
+      <obj_property name="ElementShortName">cq_p_i[0:7][31:0]</obj_property>
+      <obj_property name="ObjectShortName">cq_p_i[0:7][31:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/board/cq_p_j">
+      <obj_property name="ElementShortName">cq_p_j[0:7][31:0]</obj_property>
+      <obj_property name="ObjectShortName">cq_p_j[0:7][31:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/board/pcie_root_source_p">
+      <obj_property name="ElementShortName">pcie_root_source_p[0:7][0:29][127:0]</obj_property>
+      <obj_property name="ObjectShortName">pcie_root_source_p[0:7][0:29][127:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/board/m_axis_outputDAI_tvalid">
+      <obj_property name="ElementShortName">m_axis_outputDAI_tvalid[0:7]</obj_property>
+      <obj_property name="ObjectShortName">m_axis_outputDAI_tvalid[0:7]</obj_property>
+      <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/board/m_axis_outputDAQ_tvalid">
+      <obj_property name="ElementShortName">m_axis_outputDAQ_tvalid[0:7]</obj_property>
+      <obj_property name="ObjectShortName">m_axis_outputDAQ_tvalid[0:7]</obj_property>
+      <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/board/m_axis_outputDAI_tlast">
+      <obj_property name="ElementShortName">m_axis_outputDAI_tlast[0:7]</obj_property>
+      <obj_property name="ObjectShortName">m_axis_outputDAI_tlast[0:7]</obj_property>
+      <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/board/m_axis_outputDAQ_tlast">
+      <obj_property name="ElementShortName">m_axis_outputDAQ_tlast[0:7]</obj_property>
+      <obj_property name="ObjectShortName">m_axis_outputDAQ_tlast[0:7]</obj_property>
+      <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/board/m_axis_outputDAI_tdata">
+      <obj_property name="ElementShortName">m_axis_outputDAI_tdata[0:7][15:0]</obj_property>
+      <obj_property name="ObjectShortName">m_axis_outputDAI_tdata[0:7][15:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/board/m_axis_outputDAQ_tdata">
+      <obj_property name="ElementShortName">m_axis_outputDAQ_tdata[0:7][15:0]</obj_property>
+      <obj_property name="ObjectShortName">m_axis_outputDAQ_tdata[0:7][15:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/board/ni">
+      <obj_property name="ElementShortName">ni[0:7][31:0]</obj_property>
+      <obj_property name="ObjectShortName">ni[0:7][31:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/board/nq">
+      <obj_property name="ElementShortName">nq[0:7][31:0]</obj_property>
+      <obj_property name="ObjectShortName">nq[0:7][31:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/board/pkg_write_i">
+      <obj_property name="ElementShortName">pkg_write_i[31:0]</obj_property>
+      <obj_property name="ObjectShortName">pkg_write_i[31:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/board/nstop">
+      <obj_property name="ElementShortName">nstop[31:0]</obj_property>
+      <obj_property name="ObjectShortName">nstop[31:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/board/clk_125m">
+      <obj_property name="ElementShortName">clk_125m</obj_property>
+      <obj_property name="ObjectShortName">clk_125m</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/board/clk_250m">
+      <obj_property name="ElementShortName">clk_250m</obj_property>
+      <obj_property name="ObjectShortName">clk_250m</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/board/clk_500m">
+      <obj_property name="ElementShortName">clk_500m</obj_property>
+      <obj_property name="ObjectShortName">clk_500m</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/board/clk_156_p">
+      <obj_property name="ElementShortName">clk_156_p</obj_property>
+      <obj_property name="ObjectShortName">clk_156_p</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/board/clk_156_n">
+      <obj_property name="ElementShortName">clk_156_n</obj_property>
+      <obj_property name="ObjectShortName">clk_156_n</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/board/sys_clk_p">
+      <obj_property name="ElementShortName">sys_clk_p</obj_property>
+      <obj_property name="ObjectShortName">sys_clk_p</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/board/sys_clk_n">
+      <obj_property name="ElementShortName">sys_clk_n</obj_property>
+      <obj_property name="ObjectShortName">sys_clk_n</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/board/reset">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/board/sys_clk">
+      <obj_property name="ElementShortName">sys_clk</obj_property>
+      <obj_property name="ObjectShortName">sys_clk</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/board/clk_156">
+      <obj_property name="ElementShortName">clk_156</obj_property>
+      <obj_property name="ObjectShortName">clk_156</obj_property>
+   </wvobject>
+</wave_config>

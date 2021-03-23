@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="bbtoc2h_synth_1" LaunchPart="xcku040-ffva1156-2-e" LaunchTime="1610613928">
+  <File Type="RDS-DCP" Name="bbtoc2h.dcp"/>
+  <File Type="RDS-UTIL-PB" Name="bbtoc2h_utilization_synth.pb"/>
+  <File Type="PA-TCL" Name="bbtoc2h.tcl"/>
+  <File Type="RDS-UTIL" Name="bbtoc2h_utilization_synth.rpt"/>
+  <File Type="REPORTS-TCL" Name="bbtoc2h_reports.tcl"/>
+  <File Type="RDS-RDS" Name="bbtoc2h.vds"/>
+  <FileSet Name="sources" Type="BlockSrcs" RelSrcDir="$PSRCDIR/bbtoc2h">
+    <File Path="$PSRCDIR/sources_1/ip/bbtoc2h/bbtoc2h.xci">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TopModule" Val="bbtoc2h"/>
+      <Option Name="UseBlackboxStub" Val="1"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="BlockSrcs" RelSrcDir="$PSRCDIR/bbtoc2h">
+    <File Path="$PSRCDIR/sources_1/ip/bbtoc2h/bbtoc2h.xci">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TopModule" Val="bbtoc2h"/>
+      <Option Name="UseBlackboxStub" Val="1"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1">
+    <Filter Type="Utils"/>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2020"/>
+    <Step Id="synth_design"/>
+  </Strategy>
+</GenRun>

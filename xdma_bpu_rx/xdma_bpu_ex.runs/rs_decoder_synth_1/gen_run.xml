@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="rs_decoder_synth_1" LaunchPart="xcku040-ffva1156-2-e" LaunchTime="1610093427">
+  <File Type="RDS-DCP" Name="rs_decoder.dcp"/>
+  <File Type="RDS-UTIL-PB" Name="rs_decoder_utilization_synth.pb"/>
+  <File Type="PA-TCL" Name="rs_decoder.tcl"/>
+  <File Type="RDS-UTIL" Name="rs_decoder_utilization_synth.rpt"/>
+  <File Type="REPORTS-TCL" Name="rs_decoder_reports.tcl"/>
+  <File Type="RDS-RDS" Name="rs_decoder.vds"/>
+  <FileSet Name="sources" Type="BlockSrcs" RelSrcDir="$PSRCDIR/rs_decoder">
+    <File Path="$PSRCDIR/sources_1/ip/rs_decoder/rs_decoder.xci">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/imports/rs_decoder/rs_decoder.xci"/>
+        <Attr Name="ImportTime" Val="1609825296"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TopModule" Val="rs_decoder"/>
+      <Option Name="UseBlackboxStub" Val="1"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="BlockSrcs" RelSrcDir="$PSRCDIR/rs_decoder">
+    <File Path="$PSRCDIR/sources_1/ip/rs_decoder/rs_decoder.xci">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/imports/rs_decoder/rs_decoder.xci"/>
+        <Attr Name="ImportTime" Val="1609825296"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TopModule" Val="rs_decoder"/>
+      <Option Name="UseBlackboxStub" Val="1"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1">
+    <Filter Type="Utils"/>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2020"/>
+    <Step Id="synth_design"/>
+  </Strategy>
+</GenRun>

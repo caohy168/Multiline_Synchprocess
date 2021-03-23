@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:47 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Wed Mar 10 20:24:43 2021
+# Process ID: 5951
+# Current directory: /home/caohy168/Downloads/dual_line_process/xdma_bpu_tx/xdma_bpu_ex.runs/xdma_bpu_synth_1
+# Command line: vivado -log xdma_bpu.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source xdma_bpu.tcl
+# Log file: /home/caohy168/Downloads/dual_line_process/xdma_bpu_tx/xdma_bpu_ex.runs/xdma_bpu_synth_1/xdma_bpu.vds
+# Journal file: /home/caohy168/Downloads/dual_line_process/xdma_bpu_tx/xdma_bpu_ex.runs/xdma_bpu_synth_1/vivado.jou
+#-----------------------------------------------------------
+source xdma_bpu.tcl -notrace

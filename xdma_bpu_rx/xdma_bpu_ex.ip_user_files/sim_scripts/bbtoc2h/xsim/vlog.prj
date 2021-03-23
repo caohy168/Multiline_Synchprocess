@@ -1,0 +1,6 @@
+verilog xil_defaultlib --include "../../../ipstatic/hdl" \
+"../../../../xdma_bpu_ex.gen/sources_1/ip/bbtoc2h/sim/bbtoc2h.v" \
+
+verilog xil_defaultlib "glbl.v"
+
+nosort

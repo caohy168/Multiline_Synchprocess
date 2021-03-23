@@ -1,0 +1,9 @@
+verilog xil_defaultlib --include "/tools/Xilinx/Vivado/2020.2/data/xilinx_vip/include" \
+"../../../../xdma_bpu_ex.gen/sources_1/ip/mac_phy_ten_gig_eth_mac_ch0_0/ten_gig_eth_mac_v15_1_1/hdl/mac_phy_ten_gig_eth_mac_ch0_0_core.v" \
+"../../../../xdma_bpu_ex.gen/sources_1/ip/mac_phy_ten_gig_eth_mac_ch0_0/synth/mac_phy_ten_gig_eth_mac_ch0_0_sync_resetn.v" \
+"../../../../xdma_bpu_ex.gen/sources_1/ip/mac_phy_ten_gig_eth_mac_ch0_0/synth/mac_phy_ten_gig_eth_mac_ch0_0_block.v" \
+"../../../../xdma_bpu_ex.gen/sources_1/ip/mac_phy_ten_gig_eth_mac_ch0_0/synth/mac_phy_ten_gig_eth_mac_ch0_0.v" \
+
+verilog xil_defaultlib "glbl.v"
+
+nosort

@@ -1,0 +1,4 @@
+vhdl xil_defaultlib  \
+"../../../../xdma_bpu_ex.gen/sources_1/ip/rs_decoder/sim/rs_decoder.vhd" \
+
+nosort

@@ -1,0 +1,15 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:47 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Thu Mar 11 02:38:08 2021
+# Process ID: 7695
+# Current directory: /home/caohy168/Work/dual_line_process/xdma_bpu_rx/xdma_bpu_ex.runs/xdma_bpu_synth_1
+# Command line: vivado -log xdma_bpu.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source xdma_bpu.tcl
+# Log file: /home/caohy168/Work/dual_line_process/xdma_bpu_rx/xdma_bpu_ex.runs/xdma_bpu_synth_1/xdma_bpu.vds
+# Journal file: /home/caohy168/Work/dual_line_process/xdma_bpu_rx/xdma_bpu_ex.runs/xdma_bpu_synth_1/vivado.jou
+#-----------------------------------------------------------
+source xdma_bpu.tcl -notrace
+INFO: [IP_Flow 19-4838] Using cached IP synthesis design for IP xdma_bpu, cache-ID = fb0d0418edba58f2.
+config_ip_cache: Time (s): cpu = 00:00:05 ; elapsed = 00:00:10 . Memory (MB): peak = 2431.352 ; gain = 0.000 ; free physical = 73811 ; free virtual = 78650
+INFO: [Common 17-206] Exiting Vivado at Thu Mar 11 02:38:27 2021...

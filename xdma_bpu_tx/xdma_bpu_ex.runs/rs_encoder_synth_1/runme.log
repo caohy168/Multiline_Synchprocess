@@ -1,0 +1,253 @@
+
+*** Running vivado
+    with args -log rs_encoder.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source rs_encoder.tcl
+
+
+****** Vivado v2020.2 (64-bit)
+  **** SW Build 3064766 on Wed Nov 18 09:12:47 MST 2020
+  **** IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+    ** Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+
+source rs_encoder.tcl -notrace
+Command: synth_design -top rs_encoder -part xcku040-ffva1156-2-e -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xcku040'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xcku040'
+INFO: [Device 21-403] Loading part xcku040-ffva1156-2-e
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 4 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 79034
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:06 . Memory (MB): peak = 2592.246 ; gain = 153.684 ; free physical = 47777 ; free virtual = 56523
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'rs_encoder' [/home/caohy/Work/dual_line_process/xdma_bpu_tx/xdma_bpu_ex.gen/sources_1/ip/rs_encoder/synth/rs_encoder.vhd:76]
+	Parameter C_HAS_ACLKEN bound to: 0 - type: integer 
+	Parameter C_HAS_ARESETN bound to: 1 - type: integer 
+	Parameter C_HAS_S_AXIS_CTRL bound to: 0 - type: integer 
+	Parameter C_HAS_S_AXIS_INPUT_TUSER bound to: 0 - type: integer 
+	Parameter C_HAS_M_AXIS_OUTPUT_TUSER bound to: 0 - type: integer 
+	Parameter C_HAS_M_AXIS_OUTPUT_TREADY bound to: 1 - type: integer 
+	Parameter C_S_AXIS_INPUT_TDATA_WIDTH bound to: 8 - type: integer 
+	Parameter C_S_AXIS_INPUT_TUSER_WIDTH bound to: 1 - type: integer 
+	Parameter C_S_AXIS_CTRL_TDATA_WIDTH bound to: 8 - type: integer 
+	Parameter C_M_AXIS_OUTPUT_TDATA_WIDTH bound to: 8 - type: integer 
+	Parameter C_M_AXIS_OUTPUT_TUSER_WIDTH bound to: 1 - type: integer 
+	Parameter C_HAS_INFO bound to: 0 - type: integer 
+	Parameter C_HAS_N_IN bound to: 0 - type: integer 
+	Parameter C_HAS_R_IN bound to: 0 - type: integer 
+	Parameter C_GEN_START bound to: 0 - type: integer 
+	Parameter C_H bound to: 1 - type: integer 
+	Parameter C_K bound to: 239 - type: integer 
+	Parameter C_N bound to: 255 - type: integer 
+	Parameter C_POLYNOMIAL bound to: 285 - type: integer 
+	Parameter C_SPEC bound to: 0 - type: integer 
+	Parameter C_SYMBOL_WIDTH bound to: 8 - type: integer 
+	Parameter C_GEN_POLY_TYPE bound to: 0 - type: integer 
+	Parameter C_NUM_CHANNELS bound to: 1 - type: integer 
+	Parameter C_MEMSTYLE bound to: 2 - type: integer 
+	Parameter C_OPTIMIZATION bound to: 2 - type: integer 
+	Parameter C_MEM_INIT_PREFIX bound to: rs_encoder - type: string 
+	Parameter C_ELABORATION_DIR bound to: ./ - type: string 
+	Parameter C_XDEVICEFAMILY bound to: kintexu - type: string 
+	Parameter C_FAMILY bound to: kintexu - type: string 
+INFO: [Synth 8-3491] module 'rs_encoder_v9_0_16' declared at '/home/caohy/Work/dual_line_process/xdma_bpu_tx/xdma_bpu_ex.gen/sources_1/ip/rs_encoder/hdl/rs_encoder_v9_0_vh_rfs.vhd:6078' bound to instance 'U0' of component 'rs_encoder_v9_0_16' [/home/caohy/Work/dual_line_process/xdma_bpu_tx/xdma_bpu_ex.gen/sources_1/ip/rs_encoder/synth/rs_encoder.vhd:161]
+INFO: [Synth 8-256] done synthesizing module 'rs_encoder' (24#1) [/home/caohy/Work/dual_line_process/xdma_bpu_tx/xdma_bpu_ex.gen/sources_1/ip/rs_encoder/synth/rs_encoder.vhd:76]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:09 ; elapsed = 00:00:12 . Memory (MB): peak = 2701.152 ; gain = 262.590 ; free physical = 47624 ; free virtual = 56378
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:10 ; elapsed = 00:00:13 . Memory (MB): peak = 2716.996 ; gain = 278.434 ; free physical = 47671 ; free virtual = 56425
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:10 ; elapsed = 00:00:13 . Memory (MB): peak = 2716.996 ; gain = 278.434 ; free physical = 47671 ; free virtual = 56425
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00.01 . Memory (MB): peak = 2729.871 ; gain = 0.000 ; free physical = 47666 ; free virtual = 56420
+INFO: [Netlist 29-17] Analyzing 16 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [/home/caohy/Work/dual_line_process/xdma_bpu_tx/xdma_bpu_ex.gen/sources_1/ip/rs_encoder/rs_encoder_ooc.xdc] for cell 'U0'
+Finished Parsing XDC File [/home/caohy/Work/dual_line_process/xdma_bpu_tx/xdma_bpu_ex.gen/sources_1/ip/rs_encoder/rs_encoder_ooc.xdc] for cell 'U0'
+Parsing XDC File [/home/caohy/Work/dual_line_process/xdma_bpu_tx/xdma_bpu_ex.runs/rs_encoder_synth_1/dont_touch.xdc]
+Finished Parsing XDC File [/home/caohy/Work/dual_line_process/xdma_bpu_tx/xdma_bpu_ex.runs/rs_encoder_synth_1/dont_touch.xdc]
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.01 . Memory (MB): peak = 2952.746 ; gain = 0.000 ; free physical = 47607 ; free virtual = 56368
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 1 instances were transformed.
+  RAM64X1S => RAM64X1S (RAMS64E): 1 instance 
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00.05 ; elapsed = 00:00:00.09 . Memory (MB): peak = 2952.746 ; gain = 0.000 ; free physical = 47606 ; free virtual = 56368
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:14 ; elapsed = 00:00:19 . Memory (MB): peak = 2952.746 ; gain = 514.184 ; free physical = 47771 ; free virtual = 56534
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xcku040-ffva1156-2-e
+INFO: [Synth 8-6742] Reading net delay rules and data
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:14 ; elapsed = 00:00:19 . Memory (MB): peak = 2952.746 ; gain = 514.184 ; free physical = 47773 ; free virtual = 56536
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property KEEP_HIERARCHY = SOFT for U0. (constraint file  /home/caohy/Work/dual_line_process/xdma_bpu_tx/xdma_bpu_ex.runs/rs_encoder_synth_1/dont_touch.xdc, line 9).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:14 ; elapsed = 00:00:19 . Memory (MB): peak = 2952.746 ; gain = 514.184 ; free physical = 47773 ; free virtual = 56536
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:15 ; elapsed = 00:00:20 . Memory (MB): peak = 2952.746 ; gain = 514.184 ; free physical = 47715 ; free virtual = 56481
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 1920 (col length:120)
+BRAMs: 1200 (col length: RAMB18 120 RAMB36 60)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:17 ; elapsed = 00:00:22 . Memory (MB): peak = 2952.746 ; gain = 514.184 ; free physical = 47706 ; free virtual = 56480
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:25 ; elapsed = 00:00:37 . Memory (MB): peak = 2952.746 ; gain = 514.184 ; free physical = 47772 ; free virtual = 56571
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:26 ; elapsed = 00:00:38 . Memory (MB): peak = 2952.746 ; gain = 514.184 ; free physical = 47745 ; free virtual = 56544
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:26 ; elapsed = 00:00:38 . Memory (MB): peak = 2952.746 ; gain = 514.184 ; free physical = 47745 ; free virtual = 56544
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:29 ; elapsed = 00:00:41 . Memory (MB): peak = 2952.746 ; gain = 514.184 ; free physical = 47741 ; free virtual = 56540
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:29 ; elapsed = 00:00:41 . Memory (MB): peak = 2952.746 ; gain = 514.184 ; free physical = 47741 ; free virtual = 56540
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:29 ; elapsed = 00:00:41 . Memory (MB): peak = 2952.746 ; gain = 514.184 ; free physical = 47740 ; free virtual = 56539
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:29 ; elapsed = 00:00:41 . Memory (MB): peak = 2952.746 ; gain = 514.184 ; free physical = 47740 ; free virtual = 56539
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:29 ; elapsed = 00:00:41 . Memory (MB): peak = 2952.746 ; gain = 514.184 ; free physical = 47739 ; free virtual = 56538
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:29 ; elapsed = 00:00:41 . Memory (MB): peak = 2952.746 ; gain = 514.184 ; free physical = 47738 ; free virtual = 56538
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+---------+------+
+|      |Cell     |Count |
++------+---------+------+
+|1     |LUT1     |     4|
+|2     |LUT2     |    11|
+|3     |LUT3     |    30|
+|4     |LUT4     |    13|
+|5     |LUT5     |    42|
+|6     |LUT6     |   110|
+|7     |MUXCY    |     7|
+|8     |RAM64X1S |     1|
+|9     |SRL16E   |     9|
+|10    |XORCY    |     8|
+|11    |FDCE     |     9|
+|12    |FDPE     |     1|
+|13    |FDRE     |   195|
+|14    |FDSE     |    16|
++------+---------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:29 ; elapsed = 00:00:41 . Memory (MB): peak = 2952.746 ; gain = 514.184 ; free physical = 47738 ; free virtual = 56538
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 0 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:28 ; elapsed = 00:00:40 . Memory (MB): peak = 2952.746 ; gain = 278.434 ; free physical = 47759 ; free virtual = 56559
+Synthesis Optimization Complete : Time (s): cpu = 00:00:29 ; elapsed = 00:00:41 . Memory (MB): peak = 2952.746 ; gain = 514.184 ; free physical = 47759 ; free virtual = 56559
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00 . Memory (MB): peak = 2952.746 ; gain = 0.000 ; free physical = 47804 ; free virtual = 56603
+INFO: [Netlist 29-17] Analyzing 16 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 5 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.01 . Memory (MB): peak = 3007.582 ; gain = 0.000 ; free physical = 47802 ; free virtual = 56602
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 2 instances were transformed.
+  (CARRY4) => CARRY8: 1 instance 
+  RAM64X1S => RAM64X1S (RAMS64E): 1 instance 
+
+INFO: [Common 17-83] Releasing license: Synthesis
+20 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:39 ; elapsed = 00:00:49 . Memory (MB): peak = 3007.582 ; gain = 569.020 ; free physical = 47938 ; free virtual = 56738
+INFO: [Common 17-600] The following parameters have non-default value.
+general.maxThreads
+INFO: [Common 17-1381] The checkpoint '/home/caohy/Work/dual_line_process/xdma_bpu_tx/xdma_bpu_ex.runs/rs_encoder_synth_1/rs_encoder.dcp' has been generated.
+WARNING: [Common 17-576] 'use_project_ipc' is deprecated. This option is deprecated and no longer used.
+INFO: [Coretcl 2-1648] Added synthesis output to IP cache for IP rs_encoder, cache-ID = 7f1835e7e8fe893c
+INFO: [Coretcl 2-1174] Renamed 315 cell refs.
+INFO: [Common 17-1381] The checkpoint '/home/caohy/Work/dual_line_process/xdma_bpu_tx/xdma_bpu_ex.runs/rs_encoder_synth_1/rs_encoder.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file rs_encoder_utilization_synth.rpt -pb rs_encoder_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Fri Jan  8 00:11:41 2021...

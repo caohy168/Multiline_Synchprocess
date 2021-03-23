@@ -1,0 +1,1 @@
+vopt -64 +acc=npr -l elaborate.log -L xilinx_vip -L xpm -L gtwizard_ultrascale_v1_7_9 -L xil_defaultlib -L ten_gig_eth_pcs_pma_v6_0_18 -L xilinx_vip -L unisims_ver -L unimacro_ver -L secureip -work xil_defaultlib xil_defaultlib.mac_phy_ten_gig_eth_pcs_pma_ch0_0 xil_defaultlib.glbl -o mac_phy_ten_gig_eth_pcs_pma_ch0_0_opt

@@ -1,0 +1,815 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="board_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="\$unit_crc_detector_sv " />
+            <top_module name="\$unit_xdma_bpu_dma_bram_wrap_sv " />
+            <top_module name="board" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="745000001fs"></ZoomEndTime>
+      <Cursor1Time time="555040530fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="194"></NameColumnWidth>
+      <ValueColumnWidth column_width="83"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="185" />
+   <wvobject type="logic" fp_name="/board/RP/s_axis_rq_tlast">
+      <obj_property name="ElementShortName">s_axis_rq_tlast</obj_property>
+      <obj_property name="ObjectShortName">s_axis_rq_tlast</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/board/RP/s_axis_rq_tdata">
+      <obj_property name="ElementShortName">s_axis_rq_tdata[255:0]</obj_property>
+      <obj_property name="ObjectShortName">s_axis_rq_tdata[255:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/board/RP/s_axis_rq_tuser">
+      <obj_property name="ElementShortName">s_axis_rq_tuser[59:0]</obj_property>
+      <obj_property name="ObjectShortName">s_axis_rq_tuser[59:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/board/RP/s_axis_rq_tkeep">
+      <obj_property name="ElementShortName">s_axis_rq_tkeep[7:0]</obj_property>
+      <obj_property name="ObjectShortName">s_axis_rq_tkeep[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/board/RP/s_axis_rq_tready">
+      <obj_property name="ElementShortName">s_axis_rq_tready[3:0]</obj_property>
+      <obj_property name="ObjectShortName">s_axis_rq_tready[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/board/RP/s_axis_rq_tvalid">
+      <obj_property name="ElementShortName">s_axis_rq_tvalid</obj_property>
+      <obj_property name="ObjectShortName">s_axis_rq_tvalid</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/board/RP/m_axis_rc_tdata">
+      <obj_property name="ElementShortName">m_axis_rc_tdata[255:0]</obj_property>
+      <obj_property name="ObjectShortName">m_axis_rc_tdata[255:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/board/RP/m_axis_rc_tuser">
+      <obj_property name="ElementShortName">m_axis_rc_tuser[74:0]</obj_property>
+      <obj_property name="ObjectShortName">m_axis_rc_tuser[74:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/board/RP/m_axis_rc_tlast">
+      <obj_property name="ElementShortName">m_axis_rc_tlast</obj_property>
+      <obj_property name="ObjectShortName">m_axis_rc_tlast</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/board/RP/m_axis_rc_tkeep">
+      <obj_property name="ElementShortName">m_axis_rc_tkeep[7:0]</obj_property>
+      <obj_property name="ObjectShortName">m_axis_rc_tkeep[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/board/RP/m_axis_rc_tvalid">
+      <obj_property name="ElementShortName">m_axis_rc_tvalid</obj_property>
+      <obj_property name="ObjectShortName">m_axis_rc_tvalid</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/board/RP/m_axis_rc_tready">
+      <obj_property name="ElementShortName">m_axis_rc_tready</obj_property>
+      <obj_property name="ObjectShortName">m_axis_rc_tready</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/board/RP/m_axis_cq_tdata">
+      <obj_property name="ElementShortName">m_axis_cq_tdata[255:0]</obj_property>
+      <obj_property name="ObjectShortName">m_axis_cq_tdata[255:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FFFF00</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/board/RP/m_axis_cq_tuser">
+      <obj_property name="ElementShortName">m_axis_cq_tuser[84:0]</obj_property>
+      <obj_property name="ObjectShortName">m_axis_cq_tuser[84:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/board/RP/m_axis_cq_tlast">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">m_axis_cq_tlast</obj_property>
+      <obj_property name="ObjectShortName">m_axis_cq_tlast</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/board/RP/m_axis_cq_tkeep">
+      <obj_property name="ElementShortName">m_axis_cq_tkeep[7:0]</obj_property>
+      <obj_property name="ObjectShortName">m_axis_cq_tkeep[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/board/RP/m_axis_cq_tvalid">
+      <obj_property name="ElementShortName">m_axis_cq_tvalid</obj_property>
+      <obj_property name="ObjectShortName">m_axis_cq_tvalid</obj_property>
+      <obj_property name="CustomSignalColor">#FFD700</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/board/RP/tx_usrapp/user_clk">
+      <obj_property name="ElementShortName">user_clk</obj_property>
+      <obj_property name="ObjectShortName">user_clk</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/board/cq_valid_wait_cnt_p1">
+      <obj_property name="ElementShortName">cq_valid_wait_cnt_p1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">cq_valid_wait_cnt_p1[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/board/cq_valid_wait_cnt_p2">
+      <obj_property name="ElementShortName">cq_valid_wait_cnt_p2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">cq_valid_wait_cnt_p2[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/board/cq_data_beat_count">
+      <obj_property name="ElementShortName">cq_data_beat_count[31:0]</obj_property>
+      <obj_property name="ObjectShortName">cq_data_beat_count[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/board/tpu_receive/pcie_user_clk">
+      <obj_property name="ElementShortName">pcie_user_clk</obj_property>
+      <obj_property name="ObjectShortName">pcie_user_clk</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/board/RP/m_axis_cq_tready">
+      <obj_property name="ElementShortName">m_axis_cq_tready</obj_property>
+      <obj_property name="ObjectShortName">m_axis_cq_tready</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/board/RP/s_axis_cc_tdata">
+      <obj_property name="ElementShortName">s_axis_cc_tdata[255:0]</obj_property>
+      <obj_property name="ObjectShortName">s_axis_cc_tdata[255:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/board/RP/s_axis_cc_tuser">
+      <obj_property name="ElementShortName">s_axis_cc_tuser[32:0]</obj_property>
+      <obj_property name="ObjectShortName">s_axis_cc_tuser[32:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/board/RP/s_axis_cc_tlast">
+      <obj_property name="ElementShortName">s_axis_cc_tlast</obj_property>
+      <obj_property name="ObjectShortName">s_axis_cc_tlast</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/board/RP/s_axis_cc_tkeep">
+      <obj_property name="ElementShortName">s_axis_cc_tkeep[7:0]</obj_property>
+      <obj_property name="ObjectShortName">s_axis_cc_tkeep[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/board/RP/s_axis_cc_tvalid">
+      <obj_property name="ElementShortName">s_axis_cc_tvalid</obj_property>
+      <obj_property name="ObjectShortName">s_axis_cc_tvalid</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/board/RP/s_axis_cc_tready">
+      <obj_property name="ElementShortName">s_axis_cc_tready[3:0]</obj_property>
+      <obj_property name="ObjectShortName">s_axis_cc_tready[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/board/led_0">
+      <obj_property name="ElementShortName">led_0</obj_property>
+      <obj_property name="ObjectShortName">led_0</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/board/led_1">
+      <obj_property name="ElementShortName">led_1</obj_property>
+      <obj_property name="ObjectShortName">led_1</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/board/led_2">
+      <obj_property name="ElementShortName">led_2</obj_property>
+      <obj_property name="ObjectShortName">led_2</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/board/led_3">
+      <obj_property name="ElementShortName">led_3</obj_property>
+      <obj_property name="ObjectShortName">led_3</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/board/ep_pci_exp_txn">
+      <obj_property name="ElementShortName">ep_pci_exp_txn[0:0]</obj_property>
+      <obj_property name="ObjectShortName">ep_pci_exp_txn[0:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/board/ep_pci_exp_txp">
+      <obj_property name="ElementShortName">ep_pci_exp_txp[0:0]</obj_property>
+      <obj_property name="ObjectShortName">ep_pci_exp_txp[0:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/board/rp_pci_exp_txn">
+      <obj_property name="ElementShortName">rp_pci_exp_txn[0:0]</obj_property>
+      <obj_property name="ObjectShortName">rp_pci_exp_txn[0:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/board/rp_pci_exp_txp">
+      <obj_property name="ElementShortName">rp_pci_exp_txp[0:0]</obj_property>
+      <obj_property name="ObjectShortName">rp_pci_exp_txp[0:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/board/tpu_receive/EP/s_axis_c2h_tdata_0">
+      <obj_property name="ElementShortName">s_axis_c2h_tdata_0[63:0]</obj_property>
+      <obj_property name="ObjectShortName">s_axis_c2h_tdata_0[63:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/board/tpu_receive/EP/s_axis_c2h_tlast_0">
+      <obj_property name="ElementShortName">s_axis_c2h_tlast_0</obj_property>
+      <obj_property name="ObjectShortName">s_axis_c2h_tlast_0</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/board/tpu_receive/EP/s_axis_c2h_tuser_0">
+      <obj_property name="ElementShortName">s_axis_c2h_tuser_0[7:0]</obj_property>
+      <obj_property name="ObjectShortName">s_axis_c2h_tuser_0[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/board/tpu_receive/EP/s_axis_c2h_tkeep_0">
+      <obj_property name="ElementShortName">s_axis_c2h_tkeep_0[7:0]</obj_property>
+      <obj_property name="ObjectShortName">s_axis_c2h_tkeep_0[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/board/tpu_receive/EP/s_axis_c2h_tvalid_0">
+      <obj_property name="ElementShortName">s_axis_c2h_tvalid_0</obj_property>
+      <obj_property name="ObjectShortName">s_axis_c2h_tvalid_0</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/board/tpu_receive/EP/s_axis_c2h_tready_0">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">s_axis_c2h_tready_0</obj_property>
+      <obj_property name="ObjectShortName">s_axis_c2h_tready_0</obj_property>
+      <obj_property name="CustomSignalColor">#FFFF00</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/board/tpu_receive/EP/m_axis_h2c_tdata_0">
+      <obj_property name="ElementShortName">m_axis_h2c_tdata_0[63:0]</obj_property>
+      <obj_property name="ObjectShortName">m_axis_h2c_tdata_0[63:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/board/tpu_receive/EP/m_axis_h2c_tlast_0">
+      <obj_property name="ElementShortName">m_axis_h2c_tlast_0</obj_property>
+      <obj_property name="ObjectShortName">m_axis_h2c_tlast_0</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/board/tpu_receive/EP/m_axis_h2c_tuser_0">
+      <obj_property name="ElementShortName">m_axis_h2c_tuser_0[7:0]</obj_property>
+      <obj_property name="ObjectShortName">m_axis_h2c_tuser_0[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/board/tpu_receive/EP/m_axis_h2c_tkeep_0">
+      <obj_property name="ElementShortName">m_axis_h2c_tkeep_0[7:0]</obj_property>
+      <obj_property name="ObjectShortName">m_axis_h2c_tkeep_0[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/board/tpu_receive/EP/m_axis_h2c_tvalid_0">
+      <obj_property name="ElementShortName">m_axis_h2c_tvalid_0</obj_property>
+      <obj_property name="ObjectShortName">m_axis_h2c_tvalid_0</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/board/tpu_receive/EP/m_axis_h2c_tready_0">
+      <obj_property name="ElementShortName">m_axis_h2c_tready_0</obj_property>
+      <obj_property name="ObjectShortName">m_axis_h2c_tready_0</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/board/tpu_receive/tpu_pullstream/clk_250m">
+      <obj_property name="ElementShortName">clk_250m</obj_property>
+      <obj_property name="ObjectShortName">clk_250m</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/board/tpu_receive/tpu_pullstream/clk_500m">
+      <obj_property name="ElementShortName">clk_500m</obj_property>
+      <obj_property name="ObjectShortName">clk_500m</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/board/tpu_receive/CLK_125MHZ_P">
+      <obj_property name="ElementShortName">CLK_125MHZ_P</obj_property>
+      <obj_property name="ObjectShortName">CLK_125MHZ_P</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/board/tpu_receive/CLK_125MHZ_N">
+      <obj_property name="ElementShortName">CLK_125MHZ_N</obj_property>
+      <obj_property name="ObjectShortName">CLK_125MHZ_N</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/board/tpu_receive/refclk_p">
+      <obj_property name="ElementShortName">refclk_p</obj_property>
+      <obj_property name="ObjectShortName">refclk_p</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/board/tpu_receive/refclk_n">
+      <obj_property name="ElementShortName">refclk_n</obj_property>
+      <obj_property name="ObjectShortName">refclk_n</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/board/tpu_receive/reset">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/board/tpu_receive/xphy_txp">
+      <obj_property name="ElementShortName">xphy_txp</obj_property>
+      <obj_property name="ObjectShortName">xphy_txp</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/board/tpu_receive/xphy_txn">
+      <obj_property name="ElementShortName">xphy_txn</obj_property>
+      <obj_property name="ObjectShortName">xphy_txn</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/board/tpu_receive/xphy_rxp">
+      <obj_property name="ElementShortName">xphy_rxp</obj_property>
+      <obj_property name="ObjectShortName">xphy_rxp</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/board/tpu_receive/xphy_rxn">
+      <obj_property name="ElementShortName">xphy_rxn</obj_property>
+      <obj_property name="ObjectShortName">xphy_rxn</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/board/tpu_receive/s_axis_outputADI_tvalid">
+      <obj_property name="ElementShortName">s_axis_outputADI_tvalid[0:7]</obj_property>
+      <obj_property name="ObjectShortName">s_axis_outputADI_tvalid[0:7]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/board/tpu_receive/s_axis_outputADQ_tvalid">
+      <obj_property name="ElementShortName">s_axis_outputADQ_tvalid[0:7]</obj_property>
+      <obj_property name="ObjectShortName">s_axis_outputADQ_tvalid[0:7]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/board/tpu_receive/s_axis_outputADI_tlast">
+      <obj_property name="ElementShortName">s_axis_outputADI_tlast[0:7]</obj_property>
+      <obj_property name="ObjectShortName">s_axis_outputADI_tlast[0:7]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/board/tpu_receive/s_axis_outputADQ_tlast">
+      <obj_property name="ElementShortName">s_axis_outputADQ_tlast[0:7]</obj_property>
+      <obj_property name="ObjectShortName">s_axis_outputADQ_tlast[0:7]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/board/tpu_receive/s_axis_outputADI_tdata">
+      <obj_property name="ElementShortName">s_axis_outputADI_tdata[0:7][15:0]</obj_property>
+      <obj_property name="ObjectShortName">s_axis_outputADI_tdata[0:7][15:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/board/tpu_receive/s_axis_outputADQ_tdata">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">s_axis_outputADQ_tdata[0:7][15:0]</obj_property>
+      <obj_property name="ObjectShortName">s_axis_outputADQ_tdata[0:7][15:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/board/tpu_receive/pci_exp_txp">
+      <obj_property name="ElementShortName">pci_exp_txp[0:0]</obj_property>
+      <obj_property name="ObjectShortName">pci_exp_txp[0:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/board/tpu_receive/pci_exp_txn">
+      <obj_property name="ElementShortName">pci_exp_txn[0:0]</obj_property>
+      <obj_property name="ObjectShortName">pci_exp_txn[0:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/board/tpu_receive/pci_exp_rxp">
+      <obj_property name="ElementShortName">pci_exp_rxp[0:0]</obj_property>
+      <obj_property name="ObjectShortName">pci_exp_rxp[0:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/board/tpu_receive/pci_exp_rxn">
+      <obj_property name="ElementShortName">pci_exp_rxn[0:0]</obj_property>
+      <obj_property name="ObjectShortName">pci_exp_rxn[0:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/board/tpu_receive/led_0">
+      <obj_property name="ElementShortName">led_0</obj_property>
+      <obj_property name="ObjectShortName">led_0</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/board/tpu_receive/led_1">
+      <obj_property name="ElementShortName">led_1</obj_property>
+      <obj_property name="ObjectShortName">led_1</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/board/tpu_receive/led_2">
+      <obj_property name="ElementShortName">led_2</obj_property>
+      <obj_property name="ObjectShortName">led_2</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/board/tpu_receive/led_3">
+      <obj_property name="ElementShortName">led_3</obj_property>
+      <obj_property name="ObjectShortName">led_3</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/board/tpu_receive/sys_clk_p">
+      <obj_property name="ElementShortName">sys_clk_p</obj_property>
+      <obj_property name="ObjectShortName">sys_clk_p</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/board/tpu_receive/sys_clk_n">
+      <obj_property name="ElementShortName">sys_clk_n</obj_property>
+      <obj_property name="ObjectShortName">sys_clk_n</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/board/tpu_receive/sys_rst_n">
+      <obj_property name="ElementShortName">sys_rst_n</obj_property>
+      <obj_property name="ObjectShortName">sys_rst_n</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/board/tpu_receive/clk_250m">
+      <obj_property name="ElementShortName">clk_250m</obj_property>
+      <obj_property name="ObjectShortName">clk_250m</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/board/tpu_receive/clk_500m">
+      <obj_property name="ElementShortName">clk_500m</obj_property>
+      <obj_property name="ObjectShortName">clk_500m</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/board/tpu_receive/m_axis_h2c_tdata_0">
+      <obj_property name="ElementShortName">m_axis_h2c_tdata_0[63:0]</obj_property>
+      <obj_property name="ObjectShortName">m_axis_h2c_tdata_0[63:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/board/tpu_receive/m_axis_h2c_tlast_0">
+      <obj_property name="ElementShortName">m_axis_h2c_tlast_0</obj_property>
+      <obj_property name="ObjectShortName">m_axis_h2c_tlast_0</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/board/tpu_receive/m_axis_h2c_tuser_0">
+      <obj_property name="ElementShortName">m_axis_h2c_tuser_0[7:0]</obj_property>
+      <obj_property name="ObjectShortName">m_axis_h2c_tuser_0[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/board/tpu_receive/m_axis_h2c_tkeep_0">
+      <obj_property name="ElementShortName">m_axis_h2c_tkeep_0[7:0]</obj_property>
+      <obj_property name="ObjectShortName">m_axis_h2c_tkeep_0[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/board/tpu_receive/m_axis_h2c_tvalid_0">
+      <obj_property name="ElementShortName">m_axis_h2c_tvalid_0</obj_property>
+      <obj_property name="ObjectShortName">m_axis_h2c_tvalid_0</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/board/tpu_receive/m_axis_h2c_tready_0">
+      <obj_property name="ElementShortName">m_axis_h2c_tready_0</obj_property>
+      <obj_property name="ObjectShortName">m_axis_h2c_tready_0</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/board/tpu_receive/axis_tdata_bb">
+      <obj_property name="ElementShortName">axis_tdata_bb[63:0]</obj_property>
+      <obj_property name="ObjectShortName">axis_tdata_bb[63:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/board/tpu_receive/axis_tkeep_bb">
+      <obj_property name="ElementShortName">axis_tkeep_bb[7:0]</obj_property>
+      <obj_property name="ObjectShortName">axis_tkeep_bb[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/board/tpu_receive/axis_tvalid_bb">
+      <obj_property name="ElementShortName">axis_tvalid_bb</obj_property>
+      <obj_property name="ObjectShortName">axis_tvalid_bb</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/board/tpu_receive/axis_tlast_bb">
+      <obj_property name="ElementShortName">axis_tlast_bb</obj_property>
+      <obj_property name="ObjectShortName">axis_tlast_bb</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/board/tpu_receive/axis_tuser_bb">
+      <obj_property name="ElementShortName">axis_tuser_bb</obj_property>
+      <obj_property name="ObjectShortName">axis_tuser_bb</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/board/tpu_receive/axis_tready_bb">
+      <obj_property name="ElementShortName">axis_tready_bb</obj_property>
+      <obj_property name="ObjectShortName">axis_tready_bb</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/board/tpu_receive/axis_tdata_bbtoc2h">
+      <obj_property name="ElementShortName">axis_tdata_bbtoc2h[63:0]</obj_property>
+      <obj_property name="ObjectShortName">axis_tdata_bbtoc2h[63:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/board/tpu_receive/axis_tkeep_bbtoc2h">
+      <obj_property name="ElementShortName">axis_tkeep_bbtoc2h[7:0]</obj_property>
+      <obj_property name="ObjectShortName">axis_tkeep_bbtoc2h[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/board/tpu_receive/axis_tvalid_bbtoc2h">
+      <obj_property name="ElementShortName">axis_tvalid_bbtoc2h</obj_property>
+      <obj_property name="ObjectShortName">axis_tvalid_bbtoc2h</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/board/tpu_receive/axis_tlast_bbtoc2h">
+      <obj_property name="ElementShortName">axis_tlast_bbtoc2h</obj_property>
+      <obj_property name="ObjectShortName">axis_tlast_bbtoc2h</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/board/tpu_receive/axis_tuser_bbtoc2h">
+      <obj_property name="ElementShortName">axis_tuser_bbtoc2h</obj_property>
+      <obj_property name="ObjectShortName">axis_tuser_bbtoc2h</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/board/tpu_receive/axis_tready_bbtoc2h">
+      <obj_property name="ElementShortName">axis_tready_bbtoc2h</obj_property>
+      <obj_property name="ObjectShortName">axis_tready_bbtoc2h</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/board/tpu_receive/pcie_user_clk">
+      <obj_property name="ElementShortName">pcie_user_clk</obj_property>
+      <obj_property name="ObjectShortName">pcie_user_clk</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/board/tpu_receive/s_axis_c2h_tdata_0">
+      <obj_property name="ElementShortName">s_axis_c2h_tdata_0[63:0]</obj_property>
+      <obj_property name="ObjectShortName">s_axis_c2h_tdata_0[63:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/board/tpu_receive/s_axis_c2h_tlast_0">
+      <obj_property name="ElementShortName">s_axis_c2h_tlast_0</obj_property>
+      <obj_property name="ObjectShortName">s_axis_c2h_tlast_0</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/board/tpu_receive/s_axis_c2h_tuser_0">
+      <obj_property name="ElementShortName">s_axis_c2h_tuser_0[7:0]</obj_property>
+      <obj_property name="ObjectShortName">s_axis_c2h_tuser_0[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/board/tpu_receive/s_axis_c2h_tkeep_0">
+      <obj_property name="ElementShortName">s_axis_c2h_tkeep_0[7:0]</obj_property>
+      <obj_property name="ObjectShortName">s_axis_c2h_tkeep_0[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/board/tpu_receive/s_axis_c2h_tvalid_0">
+      <obj_property name="ElementShortName">s_axis_c2h_tvalid_0</obj_property>
+      <obj_property name="ObjectShortName">s_axis_c2h_tvalid_0</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/board/tpu_receive/s_axis_c2h_tready_0">
+      <obj_property name="ElementShortName">s_axis_c2h_tready_0</obj_property>
+      <obj_property name="ObjectShortName">s_axis_c2h_tready_0</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/board/tpu_receive/m_axis_output_tvalid">
+      <obj_property name="ElementShortName">m_axis_output_tvalid</obj_property>
+      <obj_property name="ObjectShortName">m_axis_output_tvalid</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/board/tpu_receive/m_axis_output_tready">
+      <obj_property name="ElementShortName">m_axis_output_tready</obj_property>
+      <obj_property name="ObjectShortName">m_axis_output_tready</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/board/tpu_receive/m_axis_output_tdata">
+      <obj_property name="ElementShortName">m_axis_output_tdata[63:0]</obj_property>
+      <obj_property name="ObjectShortName">m_axis_output_tdata[63:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/board/tpu_receive/m_axis_output_tlast">
+      <obj_property name="ElementShortName">m_axis_output_tlast</obj_property>
+      <obj_property name="ObjectShortName">m_axis_output_tlast</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/board/tpu_receive/axis_tdata_10g">
+      <obj_property name="ElementShortName">axis_tdata_10g[63:0]</obj_property>
+      <obj_property name="ObjectShortName">axis_tdata_10g[63:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/board/tpu_receive/axis_tkeep_10g">
+      <obj_property name="ElementShortName">axis_tkeep_10g[7:0]</obj_property>
+      <obj_property name="ObjectShortName">axis_tkeep_10g[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/board/tpu_receive/axis_tvalid_10g">
+      <obj_property name="ElementShortName">axis_tvalid_10g</obj_property>
+      <obj_property name="ObjectShortName">axis_tvalid_10g</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/board/tpu_receive/axis_tlast_10g">
+      <obj_property name="ElementShortName">axis_tlast_10g</obj_property>
+      <obj_property name="ObjectShortName">axis_tlast_10g</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/board/tpu_receive/axis_tuser_10g">
+      <obj_property name="ElementShortName">axis_tuser_10g</obj_property>
+      <obj_property name="ObjectShortName">axis_tuser_10g</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/board/tpu_receive/axis_tready_10g">
+      <obj_property name="ElementShortName">axis_tready_10g</obj_property>
+      <obj_property name="ObjectShortName">axis_tready_10g</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/board/tpu_receive/m_axis_outputI_tvalid">
+      <obj_property name="ElementShortName">m_axis_outputI_tvalid[0:7]</obj_property>
+      <obj_property name="ObjectShortName">m_axis_outputI_tvalid[0:7]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/board/tpu_receive/m_axis_outputI_tready">
+      <obj_property name="ElementShortName">m_axis_outputI_tready[0:7]</obj_property>
+      <obj_property name="ObjectShortName">m_axis_outputI_tready[0:7]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/board/tpu_receive/m_axis_outputI_tdata">
+      <obj_property name="ElementShortName">m_axis_outputI_tdata[0:7][15:0]</obj_property>
+      <obj_property name="ObjectShortName">m_axis_outputI_tdata[0:7][15:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/board/tpu_receive/m_axis_outputI_tlast">
+      <obj_property name="ElementShortName">m_axis_outputI_tlast[0:7]</obj_property>
+      <obj_property name="ObjectShortName">m_axis_outputI_tlast[0:7]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/board/tpu_receive/m_axis_outputQ_tvalid">
+      <obj_property name="ElementShortName">m_axis_outputQ_tvalid[0:7]</obj_property>
+      <obj_property name="ObjectShortName">m_axis_outputQ_tvalid[0:7]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/board/tpu_receive/m_axis_outputQ_tready">
+      <obj_property name="ElementShortName">m_axis_outputQ_tready[0:7]</obj_property>
+      <obj_property name="ObjectShortName">m_axis_outputQ_tready[0:7]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/board/tpu_receive/m_axis_outputQ_tdata">
+      <obj_property name="ElementShortName">m_axis_outputQ_tdata[0:7][15:0]</obj_property>
+      <obj_property name="ObjectShortName">m_axis_outputQ_tdata[0:7][15:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/board/tpu_receive/m_axis_outputQ_tlast">
+      <obj_property name="ElementShortName">m_axis_outputQ_tlast[0:7]</obj_property>
+      <obj_property name="ObjectShortName">m_axis_outputQ_tlast[0:7]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/board/tpu_receive/dst_receive/aclk">
+      <obj_property name="ElementShortName">aclk</obj_property>
+      <obj_property name="ObjectShortName">aclk</obj_property>
+      <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/board/tpu_receive/dst_receive/reset">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+      <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/board/tpu_receive/dst_receive/rx_axis_tdata_left">
+      <obj_property name="ElementShortName">rx_axis_tdata_left[63:0]</obj_property>
+      <obj_property name="ObjectShortName">rx_axis_tdata_left[63:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/board/tpu_receive/dst_receive/rx_axis_tkeep_left">
+      <obj_property name="ElementShortName">rx_axis_tkeep_left[7:0]</obj_property>
+      <obj_property name="ObjectShortName">rx_axis_tkeep_left[7:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/board/tpu_receive/dst_receive/rx_axis_tvalid_left">
+      <obj_property name="ElementShortName">rx_axis_tvalid_left</obj_property>
+      <obj_property name="ObjectShortName">rx_axis_tvalid_left</obj_property>
+      <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/board/tpu_receive/dst_receive/rx_axis_tlast_left">
+      <obj_property name="ElementShortName">rx_axis_tlast_left</obj_property>
+      <obj_property name="ObjectShortName">rx_axis_tlast_left</obj_property>
+      <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/board/tpu_receive/dst_receive/rx_axis_tuser_left">
+      <obj_property name="ElementShortName">rx_axis_tuser_left</obj_property>
+      <obj_property name="ObjectShortName">rx_axis_tuser_left</obj_property>
+      <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/board/tpu_receive/dst_receive/rx_axis_tready_left">
+      <obj_property name="ElementShortName">rx_axis_tready_left</obj_property>
+      <obj_property name="ObjectShortName">rx_axis_tready_left</obj_property>
+      <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/board/tpu_receive/dst_receive/tx_axis_tdata_left">
+      <obj_property name="ElementShortName">tx_axis_tdata_left[63:0]</obj_property>
+      <obj_property name="ObjectShortName">tx_axis_tdata_left[63:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/board/tpu_receive/dst_receive/tx_axis_tkeep_left">
+      <obj_property name="ElementShortName">tx_axis_tkeep_left[7:0]</obj_property>
+      <obj_property name="ObjectShortName">tx_axis_tkeep_left[7:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/board/tpu_receive/dst_receive/tx_axis_tvalid_left">
+      <obj_property name="ElementShortName">tx_axis_tvalid_left</obj_property>
+      <obj_property name="ObjectShortName">tx_axis_tvalid_left</obj_property>
+      <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/board/tpu_receive/dst_receive/tx_axis_tlast_left">
+      <obj_property name="ElementShortName">tx_axis_tlast_left</obj_property>
+      <obj_property name="ObjectShortName">tx_axis_tlast_left</obj_property>
+      <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/board/tpu_receive/dst_receive/tx_axis_tuser_left">
+      <obj_property name="ElementShortName">tx_axis_tuser_left</obj_property>
+      <obj_property name="ObjectShortName">tx_axis_tuser_left</obj_property>
+      <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/board/tpu_receive/dst_receive/tx_axis_tready_left">
+      <obj_property name="ElementShortName">tx_axis_tready_left</obj_property>
+      <obj_property name="ObjectShortName">tx_axis_tready_left</obj_property>
+      <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/board/tpu_receive/dst_receive/pkg_cnt_left">
+      <obj_property name="ElementShortName">pkg_cnt_left[15:0]</obj_property>
+      <obj_property name="ObjectShortName">pkg_cnt_left[15:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/board/tpu_receive/dst_receive/lane2_pkg_dat_left">
+      <obj_property name="ElementShortName">lane2_pkg_dat_left[59:1][63:0]</obj_property>
+      <obj_property name="ObjectShortName">lane2_pkg_dat_left[59:1][63:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/board/tpu_receive/dst_receive/lane2_pkg_dat8_left">
+      <obj_property name="ElementShortName">lane2_pkg_dat8_left[472:1][7:0]</obj_property>
+      <obj_property name="ObjectShortName">lane2_pkg_dat8_left[472:1][7:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/board/tpu_receive/dst_receive/tranfer_state_left">
+      <obj_property name="ElementShortName">tranfer_state_left[15:0]</obj_property>
+      <obj_property name="ObjectShortName">tranfer_state_left[15:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/board/tpu_receive/dst_receive/tranfer_pkg_cnt_left">
+      <obj_property name="ElementShortName">tranfer_pkg_cnt_left[15:0]</obj_property>
+      <obj_property name="ObjectShortName">tranfer_pkg_cnt_left[15:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/board/tpu_receive/tpu_pullstream/layer1_pullsteam/layer1_receive/clk">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/board/tpu_receive/tpu_pullstream/layer1_pullsteam/layer1_receive/reset">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/board/tpu_receive/tpu_pullstream/layer1_pullsteam/layer1_receive/m_axis_output_tvalid">
+      <obj_property name="ElementShortName">m_axis_output_tvalid</obj_property>
+      <obj_property name="ObjectShortName">m_axis_output_tvalid</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/board/tpu_receive/tpu_pullstream/layer1_pullsteam/layer1_receive/m_axis_output_tready">
+      <obj_property name="ElementShortName">m_axis_output_tready</obj_property>
+      <obj_property name="ObjectShortName">m_axis_output_tready</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/board/tpu_receive/tpu_pullstream/layer1_pullsteam/layer1_receive/m_axis_output_tdata">
+      <obj_property name="ElementShortName">m_axis_output_tdata[63:0]</obj_property>
+      <obj_property name="ObjectShortName">m_axis_output_tdata[63:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/board/tpu_receive/tpu_pullstream/layer1_pullsteam/layer1_receive/m_axis_output_tlast">
+      <obj_property name="ElementShortName">m_axis_output_tlast</obj_property>
+      <obj_property name="ObjectShortName">m_axis_output_tlast</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/board/tpu_receive/tpu_pullstream/layer1_pullsteam/layer1_receive/s_axis_inputI_tvalid">
+      <obj_property name="ElementShortName">s_axis_inputI_tvalid[0:7]</obj_property>
+      <obj_property name="ObjectShortName">s_axis_inputI_tvalid[0:7]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/board/tpu_receive/tpu_pullstream/layer1_pullsteam/layer1_receive/s_axis_inputI_tready">
+      <obj_property name="ElementShortName">s_axis_inputI_tready[0:7]</obj_property>
+      <obj_property name="ObjectShortName">s_axis_inputI_tready[0:7]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/board/tpu_receive/tpu_pullstream/layer1_pullsteam/layer1_receive/s_axis_inputI_tdata">
+      <obj_property name="ElementShortName">s_axis_inputI_tdata[0:7][15:0]</obj_property>
+      <obj_property name="ObjectShortName">s_axis_inputI_tdata[0:7][15:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/board/tpu_receive/tpu_pullstream/layer1_pullsteam/layer1_receive/s_axis_inputI_tlast">
+      <obj_property name="ElementShortName">s_axis_inputI_tlast[0:7]</obj_property>
+      <obj_property name="ObjectShortName">s_axis_inputI_tlast[0:7]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/board/tpu_receive/tpu_pullstream/layer1_pullsteam/layer1_receive/s_axis_inputQ_tvalid">
+      <obj_property name="ElementShortName">s_axis_inputQ_tvalid[0:7]</obj_property>
+      <obj_property name="ObjectShortName">s_axis_inputQ_tvalid[0:7]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/board/tpu_receive/tpu_pullstream/layer1_pullsteam/layer1_receive/s_axis_inputQ_tready">
+      <obj_property name="ElementShortName">s_axis_inputQ_tready[0:7]</obj_property>
+      <obj_property name="ObjectShortName">s_axis_inputQ_tready[0:7]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/board/tpu_receive/tpu_pullstream/layer1_pullsteam/layer1_receive/s_axis_inputQ_tdata">
+      <obj_property name="ElementShortName">s_axis_inputQ_tdata[0:7][15:0]</obj_property>
+      <obj_property name="ObjectShortName">s_axis_inputQ_tdata[0:7][15:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/board/tpu_receive/tpu_pullstream/layer1_pullsteam/layer1_receive/s_axis_inputQ_tlast">
+      <obj_property name="ElementShortName">s_axis_inputQ_tlast[0:7]</obj_property>
+      <obj_property name="ObjectShortName">s_axis_inputQ_tlast[0:7]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/board/tpu_receive/tpu_pullstream/layer1_pullsteam/layer1_receive/s_axis_inputI_tvalid_8">
+      <obj_property name="ElementShortName">s_axis_inputI_tvalid_8[0:7]</obj_property>
+      <obj_property name="ObjectShortName">s_axis_inputI_tvalid_8[0:7]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/board/tpu_receive/tpu_pullstream/layer1_pullsteam/layer1_receive/s_axis_inputI_tready_8">
+      <obj_property name="ElementShortName">s_axis_inputI_tready_8[0:7]</obj_property>
+      <obj_property name="ObjectShortName">s_axis_inputI_tready_8[0:7]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/board/tpu_receive/tpu_pullstream/layer1_pullsteam/layer1_receive/s_axis_inputI_tdata_8">
+      <obj_property name="ElementShortName">s_axis_inputI_tdata_8[0:7][7:0]</obj_property>
+      <obj_property name="ObjectShortName">s_axis_inputI_tdata_8[0:7][7:0]</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/board/tpu_receive/tpu_pullstream/layer1_pullsteam/layer1_receive/s_axis_inputI_tlast_8">
+      <obj_property name="ElementShortName">s_axis_inputI_tlast_8[0:7]</obj_property>
+      <obj_property name="ObjectShortName">s_axis_inputI_tlast_8[0:7]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/board/tpu_receive/tpu_pullstream/layer1_pullsteam/layer1_receive/s_axis_inputQ_tvalid_8">
+      <obj_property name="ElementShortName">s_axis_inputQ_tvalid_8[0:7]</obj_property>
+      <obj_property name="ObjectShortName">s_axis_inputQ_tvalid_8[0:7]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/board/tpu_receive/tpu_pullstream/layer1_pullsteam/layer1_receive/s_axis_inputQ_tready_8">
+      <obj_property name="ElementShortName">s_axis_inputQ_tready_8[0:7]</obj_property>
+      <obj_property name="ObjectShortName">s_axis_inputQ_tready_8[0:7]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/board/tpu_receive/tpu_pullstream/layer1_pullsteam/layer1_receive/s_axis_inputQ_tdata_8">
+      <obj_property name="ElementShortName">s_axis_inputQ_tdata_8[0:7][7:0]</obj_property>
+      <obj_property name="ObjectShortName">s_axis_inputQ_tdata_8[0:7][7:0]</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/board/tpu_receive/tpu_pullstream/layer1_pullsteam/layer1_receive/s_axis_inputQ_tlast_8">
+      <obj_property name="ElementShortName">s_axis_inputQ_tlast_8[0:7]</obj_property>
+      <obj_property name="ObjectShortName">s_axis_inputQ_tlast_8[0:7]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/board/tpu_receive/tpu_pullstream/layer1_pullsteam/layer1_receive/eqam_data">
+      <obj_property name="ElementShortName">eqam_data[0:7][7:0]</obj_property>
+      <obj_property name="ObjectShortName">eqam_data[0:7][7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/board/tpu_receive/tpu_pullstream/layer1_pullsteam/layer1_receive/eqam_data_tvalid">
+      <obj_property name="ElementShortName">eqam_data_tvalid[0:7]</obj_property>
+      <obj_property name="ObjectShortName">eqam_data_tvalid[0:7]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/board/tpu_receive/tpu_pullstream/layer1_pullsteam/layer1_receive/eqam_data_tlast">
+      <obj_property name="ElementShortName">eqam_data_tlast[0:7]</obj_property>
+      <obj_property name="ObjectShortName">eqam_data_tlast[0:7]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/board/tpu_receive/tpu_pullstream/layer1_pullsteam/layer1_receive/descrambler_tready">
+      <obj_property name="ElementShortName">descrambler_tready[0:7]</obj_property>
+      <obj_property name="ObjectShortName">descrambler_tready[0:7]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/board/tpu_receive/tpu_pullstream/layer1_pullsteam/layer1_receive/descrambler_data">
+      <obj_property name="ElementShortName">descrambler_data[0:7][7:0]</obj_property>
+      <obj_property name="ObjectShortName">descrambler_data[0:7][7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/board/tpu_receive/tpu_pullstream/layer1_pullsteam/layer1_receive/descrambler_data_tvalid">
+      <obj_property name="ElementShortName">descrambler_data_tvalid[0:7]</obj_property>
+      <obj_property name="ObjectShortName">descrambler_data_tvalid[0:7]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/board/tpu_receive/tpu_pullstream/layer1_pullsteam/layer1_receive/descrambler_data_tlast">
+      <obj_property name="ElementShortName">descrambler_data_tlast[0:7]</obj_property>
+      <obj_property name="ObjectShortName">descrambler_data_tlast[0:7]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/board/tpu_receive/tpu_pullstream/layer1_pullsteam/layer1_receive/deintrlv_tready">
+      <obj_property name="ElementShortName">deintrlv_tready[0:7]</obj_property>
+      <obj_property name="ObjectShortName">deintrlv_tready[0:7]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/board/tpu_receive/tpu_pullstream/layer1_pullsteam/layer1_receive/deintrlv_data">
+      <obj_property name="ElementShortName">deintrlv_data[0:7][7:0]</obj_property>
+      <obj_property name="ObjectShortName">deintrlv_data[0:7][7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/board/tpu_receive/tpu_pullstream/layer1_pullsteam/layer1_receive/deintrlv_data_tvalid">
+      <obj_property name="ElementShortName">deintrlv_data_tvalid[0:7]</obj_property>
+      <obj_property name="ObjectShortName">deintrlv_data_tvalid[0:7]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/board/tpu_receive/tpu_pullstream/layer1_pullsteam/layer1_receive/deintrlv_data_tlast">
+      <obj_property name="ElementShortName">deintrlv_data_tlast[0:7]</obj_property>
+      <obj_property name="ObjectShortName">deintrlv_data_tlast[0:7]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/board/tpu_receive/tpu_pullstream/layer1_pullsteam/layer1_receive/rs_decoder_tready">
+      <obj_property name="ElementShortName">rs_decoder_tready[0:7]</obj_property>
+      <obj_property name="ObjectShortName">rs_decoder_tready[0:7]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/board/tpu_receive/tpu_pullstream/layer1_pullsteam/layer1_receive/rs_decoder_data">
+      <obj_property name="ElementShortName">rs_decoder_data[0:7][7:0]</obj_property>
+      <obj_property name="ObjectShortName">rs_decoder_data[0:7][7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/board/tpu_receive/tpu_pullstream/layer1_pullsteam/layer1_receive/rs_decoder_data_tvalid">
+      <obj_property name="ElementShortName">rs_decoder_data_tvalid[0:7]</obj_property>
+      <obj_property name="ObjectShortName">rs_decoder_data_tvalid[0:7]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/board/tpu_receive/tpu_pullstream/layer1_pullsteam/layer1_receive/rs_decoder_data_tlast">
+      <obj_property name="ElementShortName">rs_decoder_data_tlast[0:7]</obj_property>
+      <obj_property name="ObjectShortName">rs_decoder_data_tlast[0:7]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/board/tpu_receive/tpu_pullstream/layer1_pullsteam/layer1_receive/crc_detector_tready">
+      <obj_property name="ElementShortName">crc_detector_tready[0:7]</obj_property>
+      <obj_property name="ObjectShortName">crc_detector_tready[0:7]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/board/tpu_receive/tpu_pullstream/layer1_pullsteam/layer1_receive/mac_deblock_data_tvalid">
+      <obj_property name="ElementShortName">mac_deblock_data_tvalid[0:7]</obj_property>
+      <obj_property name="ObjectShortName">mac_deblock_data_tvalid[0:7]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/board/tpu_receive/tpu_pullstream/layer1_pullsteam/layer1_receive/mac_deblock_data">
+      <obj_property name="ElementShortName">mac_deblock_data[0:7][7:0]</obj_property>
+      <obj_property name="ObjectShortName">mac_deblock_data[0:7][7:0]</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/board/tpu_receive/tpu_pullstream/layer1_pullsteam/layer1_receive/mac_deblock_data_tlast">
+      <obj_property name="ElementShortName">mac_deblock_data_tlast[0:7]</obj_property>
+      <obj_property name="ObjectShortName">mac_deblock_data_tlast[0:7]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/board/tpu_receive/tpu_pullstream/layer1_pullsteam/layer1_receive/mac_deblock_tready">
+      <obj_property name="ElementShortName">mac_deblock_tready[0:7]</obj_property>
+      <obj_property name="ObjectShortName">mac_deblock_tready[0:7]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/board/tpu_receive/tpu_pullstream/layer1_pullsteam/layer1_receive/event_s_error">
+      <obj_property name="ElementShortName">event_s_error[0:7]</obj_property>
+      <obj_property name="ObjectShortName">event_s_error[0:7]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/board/tpu_receive/tpu_pullstream/layer1_pullsteam/layer1_receive/event_s_right">
+      <obj_property name="ElementShortName">event_s_right[0:7]</obj_property>
+      <obj_property name="ObjectShortName">event_s_right[0:7]</obj_property>
+   </wvobject>
+</wave_config>

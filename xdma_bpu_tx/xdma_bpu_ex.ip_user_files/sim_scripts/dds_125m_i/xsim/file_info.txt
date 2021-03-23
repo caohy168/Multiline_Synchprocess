@@ -1,0 +1,2 @@
+dds_125m_i.vhd,vhdl,xil_defaultlib,../../../../xdma_bpu_ex.gen/sources_1/ip/dds_125m_i/sim/dds_125m_i.vhd,
+glbl.v,Verilog,xil_defaultlib,glbl.v

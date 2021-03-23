@@ -1,0 +1,1 @@
+vopt -64 +acc=npr -l elaborate.log -L xilinx_vip -L xpm -L unisims_ver -L unimacro_ver -L secureip -work xil_defaultlib xil_defaultlib.mac_phy_xlconstant_8b0_0 xil_defaultlib.glbl -o mac_phy_xlconstant_8b0_0_opt

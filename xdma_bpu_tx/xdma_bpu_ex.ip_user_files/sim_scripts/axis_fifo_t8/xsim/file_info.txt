@@ -1,0 +1,2 @@
+axis_fifo_t8.v,verilog,xil_defaultlib,../../../../xdma_bpu_ex.gen/sources_1/ip/axis_fifo_t8/sim/axis_fifo_t8.v,incdir="$ref_dir/../../../ipstatic/hdl"incdir="../../../ipstatic/hdl"
+glbl.v,Verilog,xil_defaultlib,glbl.v
